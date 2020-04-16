@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - pokemonBattleSimulator",
+            "request": "launch",
+            "mainClass": "pokemonBattleSimulator.pokemonBattleSimulator"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - pokemonBattleSimulator",
+            "request": "launch",
+            "mainClass": "pokemonBattleSimulator.pokemonBattleSimulator",
+            "projectName": "pokemonBattleSimulator"
+        }
+    ]
+}

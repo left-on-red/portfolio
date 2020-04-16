@@ -1,0 +1,7 @@
+E:\Intro to Programming\Week14Assignment\Week14Assignment\obj\Debug\Week14Assignment.csprojAssemblyReference.cache
+E:\Intro to Programming\Week14Assignment\Week14Assignment\obj\Debug\Week14Assignment.csproj.CoreCompileInputs.cache
+E:\Intro to Programming\Week14Assignment\Week14Assignment\bin\Debug\Week14Assignment.exe.config
+E:\Intro to Programming\Week14Assignment\Week14Assignment\bin\Debug\Week14Assignment.exe
+E:\Intro to Programming\Week14Assignment\Week14Assignment\bin\Debug\Week14Assignment.pdb
+E:\Intro to Programming\Week14Assignment\Week14Assignment\obj\Debug\Week14Assignment.exe
+E:\Intro to Programming\Week14Assignment\Week14Assignment\obj\Debug\Week14Assignment.pdb

@@ -1,0 +1,7 @@
+C:\Users\bitstudent\Desktop\midtermExam\midtermExam\bin\Debug\midtermExam.exe.config
+C:\Users\bitstudent\Desktop\midtermExam\midtermExam\bin\Debug\midtermExam.exe
+C:\Users\bitstudent\Desktop\midtermExam\midtermExam\bin\Debug\midtermExam.pdb
+C:\Users\bitstudent\Desktop\midtermExam\midtermExam\obj\Debug\midtermExam.csprojAssemblyReference.cache
+C:\Users\bitstudent\Desktop\midtermExam\midtermExam\obj\Debug\midtermExam.csproj.CoreCompileInputs.cache
+C:\Users\bitstudent\Desktop\midtermExam\midtermExam\obj\Debug\midtermExam.exe
+C:\Users\bitstudent\Desktop\midtermExam\midtermExam\obj\Debug\midtermExam.pdb

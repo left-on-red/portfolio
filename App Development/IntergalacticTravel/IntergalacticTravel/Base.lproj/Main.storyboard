@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="t3a-px-RGl">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="IntergalacticTravel" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="space" translatesAutoresizingMaskIntoConstraints="NO" id="bh8-aH-Nmj">
+                                <rect key="frame" x="0.0" y="63" width="375" height="604"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P3U-bR-ZHi">
+                                <rect key="frame" x="16" y="484" width="343" height="48"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="343" id="hyn-fb-9PQ"/>
+                                    <constraint firstAttribute="width" constant="343" id="lyu-0c-HUG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Visit Blue Star">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="sXq-3U-ZTl" kind="show" identifier="blueSegue" id="bDw-Zq-q1x"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mx6-L0-DtR">
+                                <rect key="frame" x="16" y="359" width="343" height="48"/>
+                                <color key="backgroundColor" red="1" green="0.17169281680000001" blue="0.25733609029999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="OYD-S2-0M3"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="343" id="o2n-Ak-kK3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Visit Red Star">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="sXq-3U-ZTl" kind="show" identifier="redSegue" id="GFm-Nf-ncq"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose your Destination" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b6C-ht-PsE">
+                                <rect key="frame" x="0.0" y="203" width="375" height="44"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="b6C-ht-PsE" secondAttribute="height" multiplier="375:44" id="0nI-me-1jO"/>
+                                    <constraint firstAttribute="width" constant="375" id="xyR-TJ-rJI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="P3U-bR-ZHi" firstAttribute="top" secondItem="mx6-L0-DtR" secondAttribute="bottom" constant="77" id="HBs-CV-3h0"/>
+                            <constraint firstItem="mx6-L0-DtR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Lfh-nU-Mcd"/>
+                            <constraint firstItem="P3U-bR-ZHi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MAl-e7-4gQ"/>
+                            <constraint firstItem="b6C-ht-PsE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="139" id="Vfj-5o-EYN"/>
+                            <constraint firstItem="b6C-ht-PsE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XQ9-9d-sZF"/>
+                            <constraint firstItem="mx6-L0-DtR" firstAttribute="top" secondItem="b6C-ht-PsE" secondAttribute="bottom" constant="112" id="tqq-FM-QwG"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="VXX-J5-Mhw"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1072.8" y="133.5832083958021"/>
+        </scene>
+        <!--Star View Controller-->
+        <scene sceneID="Kav-x6-R4A">
+            <objects>
+                <viewController id="sXq-3U-ZTl" customClass="starViewController" customModule="IntergalacticTravel" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CS8-ut-4Cd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZbP-UC-x2u">
+                                <rect key="frame" x="67.5" y="264" width="240" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="Jpo-TN-cAF"/>
+                                    <constraint firstAttribute="height" constant="240" id="RWO-TK-2LD"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="240" id="ay4-h6-vxT"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="240" id="vfj-hm-wZu"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ZbP-UC-x2u" firstAttribute="centerX" secondItem="CS8-ut-4Cd" secondAttribute="centerX" id="3jC-s0-Mg8"/>
+                            <constraint firstItem="ZbP-UC-x2u" firstAttribute="top" secondItem="fMB-Pt-ZSa" secondAttribute="top" constant="200" id="sRM-yj-XeO"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="fMB-Pt-ZSa"/>
+                    </view>
+                    <connections>
+                        <outlet property="starImage" destination="ZbP-UC-x2u" id="DV2-0c-6yW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OVb-uu-1co" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1900" y="134"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="4Vr-dH-ky6">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="t3a-px-RGl" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="7X3-b1-ZfC">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="C2l-mL-VYg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bc4-ar-OHJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="133.59999999999999" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="space" width="342" height="640"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="bDw-Zq-q1x"/>
+    </inferredMetricsTieBreakers>
+</document>

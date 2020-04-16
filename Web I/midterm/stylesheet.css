@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #efd;
+	font-family: Arial;
+	background-image: url("images/bkgd-image.gif");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+header {
+	text-align: center;
+	margin-bottom: 10px;
+	width: 103%;
+	margin-left: -10px;
+	border-bottom: double 10px #480;	
+}
+
+header h1 {
+	text-transform: uppercase;
+	color: #480;
+	font-weight: bold;
+}
+
+header h2 {
+	color: #000;
+	font-weight: bold;
+}
+
+h1, h2 {
+	letter-spacing: 8px;
+}
+
+.centered {
+	text-align: center;	
+}
+
+a {
+	color: #480;
+	text-decoration: none;	
+}
+
+div.centered img {
+	margin: 2% 2% 2% 2%;	
+}

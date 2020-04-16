@@ -1,0 +1,36 @@
+body {
+	margin: 2em 6em;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #212121;
+}
+
+h1, h2 {	
+	color: #399;
+}
+
+h1 {
+	font-size: 1.5em;
+}
+
+h2 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1em;
+}
+
+small {
+	color: #212121;
+}
+
+.returnLink {
+	background-color: rgba(0, 0, 0, 0.2);
+	text-decoration: none;
+	color: #212121;
+	padding: 5px 5px 5px 5px;
+	border-radius: 10px 10px 10px 10px;
+	transition: background-color 0.5s;
+}
+
+.returnLink:hover {
+	background-color: rgba(0, 0, 0, 0.3);
+	margin-left: 1000px;
+}

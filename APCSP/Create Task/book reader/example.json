@@ -1,0 +1,199 @@
+// example.json
+{
+    "meta": {
+        "size": [800, 1200],
+        "title": "EXAMPLE BOOK",
+        "author": "THOMAS ACHATZ",
+        "repeatedItems": {
+            "pagenumber": {
+                "position": [10, 10],
+                "color": "#FF0000",
+                "font": ""
+            }
+        }
+    },
+
+    "pages": [
+        [
+            {},
+
+            {
+                "type": "text",
+                "position": [0],
+                "color": "#212121",
+                "value": "Page 1",
+                "font": {
+                    "family": "Calibri",
+                    "size": 56
+                },
+                "transformations": [],
+
+                "tags": ["centered"]
+            },
+
+            {
+                "type": "text",
+                "position": [10, 90],
+                "color": "#212121",
+                "value": "Multiple Columns",
+                "font": {
+                    "family": "Calibri",
+                    "size": 24
+                },
+
+                "transformations": []
+            },
+
+            {
+                "type": "text",
+                "position": [10, 120],
+                "color": "#FF0000",
+                "value": "01010100 01101000 01101001 01110011 00100000 01101001 01110011 00100000 01100011 01101111 01101100 01110101 01101101 01101110 00100000 00110001",
+                "font": {
+                    "family": "Calibri",
+                    "size": 12
+                },
+
+                "size": [100],
+
+                "transformations": []
+            },
+
+            {
+                "type": "text",
+                "position": [70, 120],
+                "color": "#00FF00",
+                "value": "01010100 01101000 01101001 01110011 00100000 01101001 01110011 00100000 01100011 01101111 01101100 01110101 01101101 01101110 00100000 00110010",
+                "font": {
+                    "family": "Calibri",
+                    "size": 12
+                },
+
+                "size": [100],
+
+                "transformations": []
+            },
+
+            {
+                "type": "text",
+                "position": [130, 120],
+                "color": "#0000FF",
+                "value": "01010100 01101000 01101001 01110011 00100000 01101001 01110011 00100000 01100011 01101111 01101100 01110101 01101101 01101110 00100000 00110011",
+                "font": {
+                    "family": "Calibri",
+                    "size": 12
+                },
+
+                "size": [100],
+
+                "transformations": []
+            },
+
+            {
+                "type": "text",
+                "position": [500, 170],
+                "color": "#212121",
+                "value": "Rotation Transformations",
+                "font": {
+                    "family": "Calibri",
+                    "size": 24
+                },
+
+                "transformations": []
+            },
+
+            {
+                "type": "text",
+                "position": [10, 800],
+                "color": "#212121",
+                "value": "Lorem ipsum dolor sit amet, habeo percipit antiopam sit et. Nam vocent docendi persecuti et, cum te prima dolor. Verear consulatu quo in, regione nostrud aliquando et cum. Summo dicit ad nam, labitur oporteat philosophia has ea. Stet adipisci nam at. Ad justo soluta eruditi mel, habeo salutatus in vel, his habeo everti iracundia eu. Cu apeirian scriptorem ius, agam partiendo ne est. Vim ex semper aliquip vivendo, nec posse debitis deleniti in, usu quas accusata no. Sit animal consulatu assentior eu. Veniam admodum scriptorem pri ei. Commodo aliquid vel eu, pro rebum minim dolores ut, sit ei munere expetenda pertinacia.Per munere nostrud intellegebat in. At meis dicunt discere vel, id saepe integre quo, choro eirmod facilisi at sit. Id utinam ridens quidam cum, sea in purto diceret bonorum, sensibus postulant pri ea. Mei enim graece ad. Et eripuit alienum qui, his ullum everti blandit an.His et agam bonorum iudicabit. Ut eum quidam torquatos. In reque congue labores pro, qui no illud nonumes, novum urbanitas mea te. Eu natum audiam detracto quo, ne tritani prompta vel, per in liber commodo. Eu cum disputando referrentur, est eu primis vocent omnesque, saperet voluptua dissentiet ex qui. Prompta delicata rationibus et mel, eu velit voluptatum scripserit ius.Errem soleat salutatus id mel, ei principes molestiae qui. Ea cum legimus veritus, ex vix illud maiestatis. Pri choro accusata concludaturque ad, has te elitr everti. Melius suscipit ad duo, eum ad nulla prompta, an augue dicam omnesque vis. Alia choro oporteat quo ad.",
+                "font": {
+                    "family": "Calibri",
+                    "size": 14
+                },
+
+                "size": [750],
+
+                "transformations": []
+            },
+
+            {
+                "type": "image",
+                "position": [500, 200],
+                "source": "http://diylogodesigns.com/blog/wp-content/uploads/2016/04/google-logo-icon-PNG-Transparent-Background-768x768.png",
+                "size": {
+                    "mode": "proportional",
+                    "scale": 0.3
+                },
+                "transformations": [
+                    {
+                        "type": "rotate", "value": 45
+                    }
+                ]
+            }
+        ],
+
+        [
+            {},
+
+            {
+                "type": "text",
+                "position": [0],
+                "color": "#212121",
+                "value": "Page 2",
+                "font": {
+                    "family": "Calibri",
+                    "size": 56
+                },
+                "transformations": [],
+
+                "tags": ["centered"]
+            },
+
+            {
+                "type": "text",
+                "position": [10, 60],
+                "color": "#212121",
+                "value": "Lorem ipsum dolor sit amet, habeo percipit antiopam sit et. Nam vocent docendi persecuti et, cum te prima dolor. Verear consulatu quo in, regione nostrud aliquando et cum. Summo dicit ad nam, labitur oporteat philosophia has ea. Stet adipisci nam at. Ad justo soluta eruditi mel, habeo salutatus in vel, his habeo everti iracundia eu. Cu apeirian scriptorem ius, agam partiendo ne est. Vim ex semper aliquip vivendo, nec posse debitis deleniti in, usu quas accusata no. Sit animal consulatu assentior eu. Veniam admodum scriptorem pri ei. Commodo aliquid vel eu, pro rebum minim dolores ut, sit ei munere expetenda pertinacia.Per munere nostrud intellegebat in. At meis dicunt discere vel, id saepe integre quo, choro eirmod facilisi at sit. Id utinam ridens quidam cum, sea in purto diceret bonorum, sensibus postulant pri ea. Mei enim graece ad. Et eripuit alienum qui, his ullum everti blandit an.His et agam bonorum iudicabit. Ut eum quidam torquatos. In reque congue labores pro, qui no illud nonumes, novum urbanitas mea te. Eu natum audiam detracto quo, ne tritani prompta vel, per in liber commodo. Eu cum disputando referrentur, est eu primis vocent omnesque, saperet voluptua dissentiet ex qui. Prompta delicata rationibus et mel, eu velit voluptatum scripserit ius.Errem soleat salutatus id mel, ei principes molestiae qui. Ea cum legimus veritus, ex vix illud maiestatis. Pri choro accusata concludaturque ad, has te elitr everti. Melius suscipit ad duo, eum ad nulla prompta, an augue dicam omnesque vis. Alia choro oporteat quo ad.",
+                "font": {
+                    "family": "Calibri",
+                    "size": 14
+                },
+
+                "size": [750],
+
+                "transformations": []
+            },
+
+            {
+                "type": "text",
+                "position": [10, 330],
+                "color": "#212121",
+                "value": "Lorem ipsum dolor sit amet, habeo percipit antiopam sit et. Nam vocent docendi persecuti et, cum te prima dolor. Verear consulatu quo in, regione nostrud aliquando et cum. Summo dicit ad nam, labitur oporteat philosophia has ea. Stet adipisci nam at. Ad justo soluta eruditi mel, habeo salutatus in vel, his habeo everti iracundia eu. Cu apeirian scriptorem ius, agam partiendo ne est. Vim ex semper aliquip vivendo, nec posse debitis deleniti in, usu quas accusata no. Sit animal consulatu assentior eu. Veniam admodum scriptorem pri ei. Commodo aliquid vel eu, pro rebum minim dolores ut, sit ei munere expetenda pertinacia.Per munere nostrud intellegebat in. At meis dicunt discere vel, id saepe integre quo, choro eirmod facilisi at sit. Id utinam ridens quidam cum, sea in purto diceret bonorum, sensibus postulant pri ea. Mei enim graece ad. Et eripuit alienum qui, his ullum everti blandit an.His et agam bonorum iudicabit. Ut eum quidam torquatos. In reque congue labores pro, qui no illud nonumes, novum urbanitas mea te. Eu natum audiam detracto quo, ne tritani prompta vel, per in liber commodo. Eu cum disputando referrentur, est eu primis vocent omnesque, saperet voluptua dissentiet ex qui. Prompta delicata rationibus et mel, eu velit voluptatum scripserit ius.Errem soleat salutatus id mel, ei principes molestiae qui. Ea cum legimus veritus, ex vix illud maiestatis. Pri choro accusata concludaturque ad, has te elitr everti. Melius suscipit ad duo, eum ad nulla prompta, an augue dicam omnesque vis. Alia choro oporteat quo ad.",
+                "font": {
+                    "family": "Calibri",
+                    "size": 14
+                },
+
+                "size": [750],
+
+                "transformations": []
+            },
+
+            {
+                "type": "text",
+                "position": [10, 630],
+                "color": "#212121",
+                "value": "Lorem ipsum dolor sit amet, habeo percipit antiopam sit et. Nam vocent docendi persecuti et, cum te prima dolor. Verear consulatu quo in, regione nostrud aliquando et cum. Summo dicit ad nam, labitur oporteat philosophia has ea. Stet adipisci nam at. Ad justo soluta eruditi mel, habeo salutatus in vel, his habeo everti iracundia eu. Cu apeirian scriptorem ius, agam partiendo ne est. Vim ex semper aliquip vivendo, nec posse debitis deleniti in, usu quas accusata no. Sit animal consulatu assentior eu. Veniam admodum scriptorem pri ei. Commodo aliquid vel eu, pro rebum minim dolores ut, sit ei munere expetenda pertinacia.Per munere nostrud intellegebat in. At meis dicunt discere vel, id saepe integre quo, choro eirmod facilisi at sit. Id utinam ridens quidam cum, sea in purto diceret bonorum, sensibus postulant pri ea. Mei enim graece ad. Et eripuit alienum qui, his ullum everti blandit an.His et agam bonorum iudicabit. Ut eum quidam torquatos. In reque congue labores pro, qui no illud nonumes, novum urbanitas mea te. Eu natum audiam detracto quo, ne tritani prompta vel, per in liber commodo. Eu cum disputando referrentur, est eu primis vocent omnesque, saperet voluptua dissentiet ex qui. Prompta delicata rationibus et mel, eu velit voluptatum scripserit ius.Errem soleat salutatus id mel, ei principes molestiae qui. Ea cum legimus veritus, ex vix illud maiestatis. Pri choro accusata concludaturque ad, has te elitr everti. Melius suscipit ad duo, eum ad nulla prompta, an augue dicam omnesque vis. Alia choro oporteat quo ad.",
+                "font": {
+                    "family": "Calibri",
+                    "size": 14
+                },
+
+                "size": [750],
+
+                "transformations": []
+            }
+        ]
+    ]
+}

@@ -1,0 +1,76 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #DDD;
+            transition-duration: 0.3s;
+        }
+
+        div {
+            margin: auto;
+            position: relative;
+            overflow: hidden;
+            background-color: #F1F1F1;
+            width: 1px;
+            height: 1px;
+            transition-duration: 0.3s;
+        }
+
+        nav {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 5%;
+            z-index: 1000;
+            background-color: #BBB;
+            transition-duration: 0.3s;
+        }
+
+        nav i {
+            color: #222222;
+            transition-duration: 0.3s;
+            margin: 5px;
+        }
+
+        nav i:hover {
+            cursor: pointer;
+        }
+
+        input {
+            position: fixed;
+        }
+    </style>
+</head>
+<body onresize='renderer.resize()'>
+
+    <form action="#">
+        <input type="file" id="input" onchange="parser.parse(this.files)">
+    </form>
+
+    <div onclick="renderer.refreshNav()">
+        <nav id="nav" onclick="renderer.refreshValue = 200;">
+            <i class="fa fa-adjust" onclick="renderer.toggleMode()"></i>
+            <i class="fa fa-chevron-left" onclick="renderer.previousPage()"></i>
+            <i class="fa fa-chevron-right" onclick="renderer.nextPage()"></i>
+        </nav>
+    </div>
+</body>
+
+<footer>
+    <script src="renderer.js"></script>
+    <script src="parser.js"></script>
+</footer>
+</html>

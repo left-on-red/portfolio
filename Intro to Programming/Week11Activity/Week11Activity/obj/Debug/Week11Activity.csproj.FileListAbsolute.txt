@@ -1,0 +1,7 @@
+E:\Intro to Programming\Week11Activity\Week11Activity\bin\Debug\Week11Activity.exe.config
+E:\Intro to Programming\Week11Activity\Week11Activity\bin\Debug\Week11Activity.exe
+E:\Intro to Programming\Week11Activity\Week11Activity\bin\Debug\Week11Activity.pdb
+E:\Intro to Programming\Week11Activity\Week11Activity\obj\Debug\Week11Activity.csprojAssemblyReference.cache
+E:\Intro to Programming\Week11Activity\Week11Activity\obj\Debug\Week11Activity.csproj.CoreCompileInputs.cache
+E:\Intro to Programming\Week11Activity\Week11Activity\obj\Debug\Week11Activity.exe
+E:\Intro to Programming\Week11Activity\Week11Activity\obj\Debug\Week11Activity.pdb

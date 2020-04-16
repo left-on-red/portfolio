@@ -1,0 +1,21 @@
+C:\Users\bitstudent\source\repos\week9Assignment\week9Assignment\bin\Debug\week9Assignment.exe.config
+C:\Users\bitstudent\source\repos\week9Assignment\week9Assignment\bin\Debug\week9Assignment.exe
+C:\Users\bitstudent\source\repos\week9Assignment\week9Assignment\bin\Debug\week9Assignment.pdb
+C:\Users\bitstudent\source\repos\week9Assignment\week9Assignment\obj\Debug\week9Assignment.csprojAssemblyReference.cache
+C:\Users\bitstudent\source\repos\week9Assignment\week9Assignment\obj\Debug\week9Assignment.csproj.CoreCompileInputs.cache
+C:\Users\bitstudent\source\repos\week9Assignment\week9Assignment\obj\Debug\week9Assignment.exe
+C:\Users\bitstudent\source\repos\week9Assignment\week9Assignment\obj\Debug\week9Assignment.pdb
+E:\Intro to Programming\week9Assignment\week9Assignment\bin\Debug\week9Assignment.exe.config
+E:\Intro to Programming\week9Assignment\week9Assignment\bin\Debug\week9Assignment.exe
+E:\Intro to Programming\week9Assignment\week9Assignment\bin\Debug\week9Assignment.pdb
+E:\Intro to Programming\week9Assignment\week9Assignment\obj\Debug\week9Assignment.csprojAssemblyReference.cache
+E:\Intro to Programming\week9Assignment\week9Assignment\obj\Debug\week9Assignment.csproj.CoreCompileInputs.cache
+E:\Intro to Programming\week9Assignment\week9Assignment\obj\Debug\week9Assignment.exe
+E:\Intro to Programming\week9Assignment\week9Assignment\obj\Debug\week9Assignment.pdb
+F:\Intro to Programming\week9Assignment\week9Assignment\bin\Debug\week9Assignment.exe.config
+F:\Intro to Programming\week9Assignment\week9Assignment\bin\Debug\week9Assignment.exe
+F:\Intro to Programming\week9Assignment\week9Assignment\bin\Debug\week9Assignment.pdb
+F:\Intro to Programming\week9Assignment\week9Assignment\obj\Debug\week9Assignment.csprojAssemblyReference.cache
+F:\Intro to Programming\week9Assignment\week9Assignment\obj\Debug\week9Assignment.csproj.CoreCompileInputs.cache
+F:\Intro to Programming\week9Assignment\week9Assignment\obj\Debug\week9Assignment.exe
+F:\Intro to Programming\week9Assignment\week9Assignment\obj\Debug\week9Assignment.pdb

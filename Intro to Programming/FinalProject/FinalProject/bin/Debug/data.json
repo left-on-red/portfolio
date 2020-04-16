@@ -1,0 +1,36 @@
+{
+  "credentials": {
+    "tachatz": "password",
+    "tom": "password"
+  },
+  "customers": {
+    "tachatz": {
+      "accounts": [
+        {
+          "NAME": "acc1",
+          "NUMBER": 10,
+          "BALANCE": 998900.0
+        },
+        {
+          "NAME": "acc2",
+          "NUMBER": 11,
+          "BALANCE": 1100.0
+        }
+      ]
+    },
+    "tom": {
+      "accounts": [
+        {
+          "NAME": "acc1",
+          "NUMBER": 20,
+          "BALANCE": 999990.0
+        },
+        {
+          "NAME": "acc2",
+          "NUMBER": 21,
+          "BALANCE": 10.0
+        }
+      ]
+    }
+  }
+}

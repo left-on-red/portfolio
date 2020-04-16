@@ -1,0 +1,7 @@
+C:\Users\bitstudent\source\repos\gpaCalc\gpaCalc\bin\Debug\gpaCalc.exe.config
+C:\Users\bitstudent\source\repos\gpaCalc\gpaCalc\bin\Debug\gpaCalc.exe
+C:\Users\bitstudent\source\repos\gpaCalc\gpaCalc\bin\Debug\gpaCalc.pdb
+C:\Users\bitstudent\source\repos\gpaCalc\gpaCalc\obj\Debug\gpaCalc.csprojAssemblyReference.cache
+C:\Users\bitstudent\source\repos\gpaCalc\gpaCalc\obj\Debug\gpaCalc.csproj.CoreCompileInputs.cache
+C:\Users\bitstudent\source\repos\gpaCalc\gpaCalc\obj\Debug\gpaCalc.exe
+C:\Users\bitstudent\source\repos\gpaCalc\gpaCalc\obj\Debug\gpaCalc.pdb

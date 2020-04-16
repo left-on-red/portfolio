@@ -1,0 +1,7 @@
+C:\Users\bitstudent\source\repos\lesson9Activity\lesson9Activity\bin\Debug\lesson9Activity.exe.config
+C:\Users\bitstudent\source\repos\lesson9Activity\lesson9Activity\bin\Debug\lesson9Activity.exe
+C:\Users\bitstudent\source\repos\lesson9Activity\lesson9Activity\bin\Debug\lesson9Activity.pdb
+C:\Users\bitstudent\source\repos\lesson9Activity\lesson9Activity\obj\Debug\lesson9Activity.csproj.CoreCompileInputs.cache
+C:\Users\bitstudent\source\repos\lesson9Activity\lesson9Activity\obj\Debug\lesson9Activity.exe
+C:\Users\bitstudent\source\repos\lesson9Activity\lesson9Activity\obj\Debug\lesson9Activity.pdb
+C:\Users\bitstudent\source\repos\lesson9Activity\lesson9Activity\obj\Debug\lesson9Activity.csprojAssemblyReference.cache

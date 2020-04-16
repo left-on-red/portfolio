@@ -1,0 +1,7 @@
+E:\Intro to Programming\Week6Assignment\Week6Assignment\bin\Debug\Week6Assignment.exe.config
+E:\Intro to Programming\Week6Assignment\Week6Assignment\bin\Debug\Week6Assignment.exe
+E:\Intro to Programming\Week6Assignment\Week6Assignment\bin\Debug\Week6Assignment.pdb
+E:\Intro to Programming\Week6Assignment\Week6Assignment\obj\Debug\Week6Assignment.csprojAssemblyReference.cache
+E:\Intro to Programming\Week6Assignment\Week6Assignment\obj\Debug\Week6Assignment.csproj.CoreCompileInputs.cache
+E:\Intro to Programming\Week6Assignment\Week6Assignment\obj\Debug\Week6Assignment.exe
+E:\Intro to Programming\Week6Assignment\Week6Assignment\obj\Debug\Week6Assignment.pdb

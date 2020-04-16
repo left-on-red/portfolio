@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mm-logo-large-white-bg" translatesAutoresizingMaskIntoConstraints="NO" id="1nq-Vs-8GI">
+                                <rect key="frame" x="0.0" y="189" width="375" height="288"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright (c) 2018 MobileMakersEdu. All Rights Reserved" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cuC-G8-dzn">
+                                <rect key="frame" x="0.0" y="629" width="375" height="38"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="38" id="C5F-28-2Oa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="cuC-G8-dzn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="2iV-qm-yyt"/>
+                            <constraint firstItem="cuC-G8-dzn" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="3fF-Ic-WPY"/>
+                            <constraint firstItem="1nq-Vs-8GI" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="8Xr-qs-FBD"/>
+                            <constraint firstItem="1nq-Vs-8GI" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="MUi-Xg-jtS"/>
+                            <constraint firstAttribute="trailing" secondItem="1nq-Vs-8GI" secondAttribute="trailing" id="Sj2-QT-YkR"/>
+                            <constraint firstItem="cuC-G8-dzn" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Vg5-lW-NHk"/>
+                            <constraint firstItem="1nq-Vs-8GI" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="hlm-I5-FdH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="197.59999999999999" y="378.26086956521743"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="mm-logo-large-white-bg" width="1188" height="288"/>
+    </resources>
+</document>

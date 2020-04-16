@@ -1,0 +1,14 @@
+C:\Users\bitstudent\source\repos\midterm\midterm\bin\Debug\midterm.exe.config
+C:\Users\bitstudent\source\repos\midterm\midterm\bin\Debug\midterm.exe
+C:\Users\bitstudent\source\repos\midterm\midterm\bin\Debug\midterm.pdb
+C:\Users\bitstudent\source\repos\midterm\midterm\obj\Debug\midterm.csprojAssemblyReference.cache
+C:\Users\bitstudent\source\repos\midterm\midterm\obj\Debug\midterm.csproj.CoreCompileInputs.cache
+C:\Users\bitstudent\source\repos\midterm\midterm\obj\Debug\midterm.exe
+C:\Users\bitstudent\source\repos\midterm\midterm\obj\Debug\midterm.pdb
+D:\Intro to Programming\midterm\midterm\bin\Debug\midterm.exe.config
+D:\Intro to Programming\midterm\midterm\bin\Debug\midterm.exe
+D:\Intro to Programming\midterm\midterm\bin\Debug\midterm.pdb
+D:\Intro to Programming\midterm\midterm\obj\Debug\midterm.csprojAssemblyReference.cache
+D:\Intro to Programming\midterm\midterm\obj\Debug\midterm.csproj.CoreCompileInputs.cache
+D:\Intro to Programming\midterm\midterm\obj\Debug\midterm.exe
+D:\Intro to Programming\midterm\midterm\obj\Debug\midterm.pdb

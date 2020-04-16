@@ -1,0 +1,7 @@
+C:\Users\bitstudent\source\repos\Week4Assignment\Week4Assignment\bin\Debug\Week4Assignment.exe.config
+C:\Users\bitstudent\source\repos\Week4Assignment\Week4Assignment\bin\Debug\Week4Assignment.exe
+C:\Users\bitstudent\source\repos\Week4Assignment\Week4Assignment\bin\Debug\Week4Assignment.pdb
+C:\Users\bitstudent\source\repos\Week4Assignment\Week4Assignment\obj\Debug\Week4Assignment.csprojAssemblyReference.cache
+C:\Users\bitstudent\source\repos\Week4Assignment\Week4Assignment\obj\Debug\Week4Assignment.csproj.CoreCompileInputs.cache
+C:\Users\bitstudent\source\repos\Week4Assignment\Week4Assignment\obj\Debug\Week4Assignment.exe
+C:\Users\bitstudent\source\repos\Week4Assignment\Week4Assignment\obj\Debug\Week4Assignment.pdb

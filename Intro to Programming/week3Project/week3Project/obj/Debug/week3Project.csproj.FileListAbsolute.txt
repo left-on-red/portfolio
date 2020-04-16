@@ -1,0 +1,7 @@
+C:\Users\bitstudent\Desktop\week3Project\week3Project\bin\Debug\week3Project.exe.config
+C:\Users\bitstudent\Desktop\week3Project\week3Project\bin\Debug\week3Project.exe
+C:\Users\bitstudent\Desktop\week3Project\week3Project\bin\Debug\week3Project.pdb
+C:\Users\bitstudent\Desktop\week3Project\week3Project\obj\Debug\week3Project.csprojAssemblyReference.cache
+C:\Users\bitstudent\Desktop\week3Project\week3Project\obj\Debug\week3Project.csproj.CoreCompileInputs.cache
+C:\Users\bitstudent\Desktop\week3Project\week3Project\obj\Debug\week3Project.exe
+C:\Users\bitstudent\Desktop\week3Project\week3Project\obj\Debug\week3Project.pdb

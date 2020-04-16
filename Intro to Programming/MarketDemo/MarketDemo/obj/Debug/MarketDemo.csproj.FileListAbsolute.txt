@@ -1,0 +1,7 @@
+E:\Intro to Programming\MarketDemo\MarketDemo\bin\Debug\MarketDemo.exe.config
+E:\Intro to Programming\MarketDemo\MarketDemo\bin\Debug\MarketDemo.exe
+E:\Intro to Programming\MarketDemo\MarketDemo\bin\Debug\MarketDemo.pdb
+E:\Intro to Programming\MarketDemo\MarketDemo\obj\Debug\MarketDemo.csprojAssemblyReference.cache
+E:\Intro to Programming\MarketDemo\MarketDemo\obj\Debug\MarketDemo.csproj.CoreCompileInputs.cache
+E:\Intro to Programming\MarketDemo\MarketDemo\obj\Debug\MarketDemo.exe
+E:\Intro to Programming\MarketDemo\MarketDemo\obj\Debug\MarketDemo.pdb

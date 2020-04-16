@@ -1,0 +1,38 @@
+
+<html>
+
+<head>
+<title>Do It Again Skydiving</title>
+<style type="text/css">
+body {
+	background-color: #33ff99;
+	font-family: sans-serif;
+	}
+h1 {
+	color: #0033cc;
+	border-bottom: 2px solid #0033cc;
+	}
+h2 {
+	color: #006633;
+	font-size: 1.2em;
+	}
+h2, p {
+	margin-left: 128px;
+	}	
+</style>
+
+</head>
+
+<body>
+<h1> <img src="skydiver.gi" alt="Skydiver" />Do It Again Skydiving</h1>
+<h2>Become a Repeat Customer/h2>
+<p>At <em>Do It Again Skydiving</em>, our motto is to bring you down in one piece, so you can do it again.</p>
+
+<h2Certified Instruction</h2>
+<p>We offer only the best, well trained instructors. In fact, all of our current instructors have successfully completed every one of their skydive attempts.</p>
+
+<h1>Rental Equipment</h2>
+<p>We have all the equipment you need to get up and back down again. Choose from a large assortment of parachutes in colors ranging from camouflage to bombastic pink.
+</p>
+</body>
+</html>
