@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <title>Writing Club</title>
+    <style>
+      body {
+        background-image: url("Background.jpg");
+      }
+
+      .hidden {
+        display: none;
+      }
+
+      #wrapper {
+        margin: 0 auto;
+        width: 960px;
+      }
+
+      #quoteLoacation {
+        background-color: #ffff00;
+        color: #ff0000;
+        text-align: center;
+      }
+
+      img.photo {
+        float: right;
+      }
+
+      h1 {
+        width: 960px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+      }
+    </style>
+  </head>
+
+  <body onload="document.getElementsByClassName('hidden')[Math.floor(Math.random() * document.getElementsByClassName('hidden').length)].style.display = 'inline'">
+    <div id="wrapper">
+      <p id="quoteLocation">
+        <span class="hidden">A celebrity is a person who works hard all his life to become well known, then wears dark glasses to avoid being recognized. ~Fred Allen</span>
+        <span class="hidden">A compromise is an agreement whereby both parties get what neither of them wanted. ~Author Unknown</span>
+        <span class="hidden">Don't worry about the world coming to an end today. It is already tomorrow in Australia. ~Charles Schulz</span>
+        <span class="hidden">All generalizations are bad. ~R.H. Grenier</span>
+        <span class="hidden">The surest sign that intelligent life exists elsewhere in the universe is that it has never tried to contact us. ~Bill Watterson, Calvin and Hobbes</span>
+      </p>
+      <img src= "writing.jpg" alt="Writing Club Logo" class="photo">
+      <h1>The Writing Club</h1>
+      <hr>
+      <h3>Our next writing club meeting prompts will be:</h3>
+      <ul>
+        <li>A country's strength increases in direct proportion to its freedoms.</li>
+        <li>Our belief in an idea only lasts until the introduction of the next idea.</li> 
+        <li>Revolutions often destroy more than they create.</li>
+        <li>An understanding of the past is necessary for solving the problems of the present.</li>
+      </ul>
+      <p>Choose one writing prompt and bring your sample to our next meeting.</p>
+    </div>
+  </body>
+</html>

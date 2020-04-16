@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <title>Max's Diner</title>
+        <style> 
+            body {
+                background-image: url(background.gif);
+                font-family: garmond, serif;
+            }
+    
+            p {
+                text-indent: 20px;
+            }
+    
+            h1, h2, h3 {
+                color:green;
+            }
+            
+            h4 {
+                color:blue;
+                margin: 0 auto;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+    
+            h1 {
+                background: black;
+                margin: 0 auto;
+                text-align: center;
+            }
+    
+            p {
+                margin-bottom: 10px;
+            }
+
+            .special {
+                display: none;
+            }
+        </style>
+    </head>
+    
+    <body onload="document.getElementsByClassName('special')[new Date().getDay()].style.display = 'inline'">
+        <h1>Max's Diner</h1>
+        <h2>Dinner Menu</h2>
+        <h4>Served 4:00 p.m. - 10:00 p.m.</h4>
+    
+        <hr>
+
+        <h4>Today's Special</h4>
+        
+        <span class="special">
+            <h3>Chicken or Veal Florentine</h3>
+            <p>A homemade breaded chicken or veal in a special lemon sauce topped with sautéed spinach and covered with fresh sautéed mushrooms with your choice of side pasta $15.95</p>
+        </span>
+
+        <span class="special">
+            <h3>Sausage, Peppers &amp; Potatoes</h3>
+            <p>Italian sausage with freshly peeled potatoes cooked to perfection with green and red bell peppers in a special herbs and spice seasoning. (Family Favorite) $9.95</p>
+        </span>
+
+        <span class="special">
+            <h3>Steak Braciole</h3>
+            <p>Thinly pounded steak stuffed with herbs and spices rolled into a log than simmered to perfection in it’s own marinara sauce with your choice of side pasta. $12.95</p>
+        </span>
+
+        <span class="special">
+            <h3>Prime Rib Special</h3>
+            <p>Make your weekend extra-special! Savor a hearty 10-oz. cut of our succulent slow-roasted prime rib. Served with au jus, one side item and your choice of any house salad or soup. Come early as our supply of this all-time beef favorite is limited! $14.99</p>
+        </span>
+
+        <span class="special">
+            <h3>Baked Lasagna</h3>
+            <p>Traditional style Lasagna baked with Mozzarella cheese and served with garlic bread. $8.95</p>
+        </span>
+
+        <span class="special">
+            <h3>Broiled Walleye Pike</h3>
+            <p>A true Midwestern fish fillet.  Topped with a combination of fourteen all natural herbs and spices. Garnished with fresh limes. Choice of potato, with soup or salad and bread basket. $13.95</p>
+        </span>
+        
+        <span class="special">
+            <h3>Chicken Amandine</h3>
+            <p>Chicken breast lightly coated with an almond breading, sautéed with red peppers in an Amaretto cream sauce with roasted almonds. $12.95</p>
+        </span>
+        
+        <hr>
+        <h3>Chicken Fettuccini</h3>        
+        <p>Chicken with sundried tomatoes, garlic, parmesan cream sauce and fettuccini.  $12.95</p>
+    
+        <h3>Jambalaya Pasta</h3>    
+        <p>Chicken and shrimp with Cajun Creole sauce with tomatoes, onions, peppers and garlic with penne.  $14.95</p>
+    
+        <h3>Chicken Tenders</h3>     
+        <p>Fried chicken tenderloins with fries.  $10.95</p>
+    
+        <h3>Hickory BBQ Ribs</h3>     
+        <p>Whole rack of tender, hickory smoked grilled ribs with Hickory BBQ sauce, coleslaw and fries.  $16.95</p>
+    
+        <h3>Grilled Herb Pork Chops</h3>
+        <p>Pork chops, with fresh rosemary, herb sauce with mashed potatoes.  $16.95</p>
+    
+        <h3>Chicken Madeira</h3>   
+        <p>Chicken sautéed in Madeira sauce with sundried tomatoes, portobello mushrooms and fettuccini.  $13.95</p>
+    </body>
+</html>
