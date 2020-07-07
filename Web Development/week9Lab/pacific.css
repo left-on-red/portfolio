@@ -1,0 +1,258 @@
+* {
+    box-sizing: border-box;
+}
+
+header, main, nav, footer, figure, figcaption, aside, section, article { display: block; }
+
+body {
+    background-color: #B8DBED;
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #000033;
+    color: #FFFFFF;
+    height: 120px;
+    padding-top: 30px;
+    padding-left: 3em;
+    text-align: center;
+    padding-top: 15px;
+}
+
+nav {
+    background-color: inherit;
+    font-weight: bold;
+    padding: 10px;
+    padding: 1.5em;
+    font-size: 120%;
+    float: left;
+    width: 160px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    font-size: 1.2em;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:link {
+    color: #5C7FA3;
+}
+
+nav a:visited {
+    color: #344873;
+}
+
+nav a:hover {
+    color: #A52A2A;
+}
+
+main {
+    padding: 1px 20px 20px 20px;
+    display: block;
+    background-color: #fff;
+    margin-left: 190px;
+}
+
+main ul {
+    list-style-image: url("marker.gif");
+}
+
+dt {
+    color: #000033;
+}
+
+.resort {
+    color: #5C7FA3;
+}
+
+h1 {
+    margin-bottom: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    margin-top: 0;
+    font-size: 3em;
+    letter-spacing: 0.25em;
+}
+
+h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    text-shadow: 1px #CCC;
+}
+
+h3 {
+    font-family: Georgia, "Times New Roman", serif;
+    color: #000033;
+}
+
+footer {
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", serif;
+    padding: 20px;
+    margin-left: 190px;
+    background-color: #FFF;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 0.5em;
+    border: solid 2px #39c;
+}
+
+td {
+    text-align: center;
+}
+
+.text {
+    text-align: left;
+}
+
+tr:nth-of-type(odd) td, tr:nth-of-type(odd) th {
+    background-color: #f5fafc;
+}
+
+.resort {
+    font-weight: bold;
+}
+
+#contact {
+    font-size: 90%;
+}
+
+#wrapper {
+    width: 80px;
+    min-width: 960px;
+    max-width: 2048px;
+    background-color: #90C7E3;
+    box-shadow: 3px #333;
+    border: 1px solid #003;
+    background-color: linear-gradient(#FFF, #90C7E3);
+    margin: 0 auto;
+}
+
+#homehero {
+    height: 300px;
+    background-size: 100% 100%;
+    background-image: url("coast2.jpg");
+    margin-left: 190px;
+}
+
+#yurthero {
+    height: 300px;
+    background-size: 100% 100%;
+    background-image: url("yurt.jpg");
+    margin-left: 190px;
+}
+
+#trailhero {
+    height: 300px;
+    background-size: 100% 100%;
+    background-image: url("trail.jpg");
+    margin-left: 190px;
+}
+
+#mobile {
+    display: none;
+}
+
+#desktop {
+    display: inline;
+}
+
+@media only screen and (max-width: 64em) {
+    body {
+        margin: 0;
+        background-color: #FFF;
+    }
+
+    #wrapper {
+        min-width: 0;
+        width: auto;
+        box-shadow: none;
+        border: none;
+    }
+
+    header {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        padding-left: 0;
+        height: auto;
+    }
+
+    h1 {
+        letter-spacing: 0.1em;
+    }
+
+    main {
+        margin-left: 0;
+    }
+
+    nav {
+        float: none;
+        width: auto;
+        text-align: center;
+        padding: 0.5em;
+    }
+
+    nav ul li {
+        display: inline;
+        padding: 0.25em 0.75em 0.25em 0.75em;
+    }
+
+    #homehero, #yurthero, #trailhero {
+        margin: 0;
+        height: 200px;
+    }
+
+    footer {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 37.5em) {
+    main {
+        padding: 0.1em 1em;
+        font-size: 90%;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    nav {
+        padding: 0;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 0;
+        border-bottom: solid 2px #300;
+    }
+
+    nav ul li a {
+        display: block;
+    }
+
+    #homehero, #yurthero, #trailhero {
+        background-image: none;
+        height: 0;
+    }
+
+    #mobile {
+        display: inline;
+    }
+
+    #desktop {
+        display: none;
+    }
+}

@@ -1,0 +1,4 @@
+validated: apple.com, wikipedia.com, netflix.com
+most valid: apple.com @ 45 errors
+least valid: netflix.com @ 208 errors
+issue identified the most: attribute autocomplete not aallowed on element button at this point

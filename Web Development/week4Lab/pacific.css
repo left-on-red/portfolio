@@ -1,0 +1,25 @@
+body {
+    background-color: #FFFFFF;
+    color: #666666;
+}
+
+header {
+    background-color: #000033;
+    color: #FFFFFF;
+}
+
+nav {
+    background-color: #3399CC;
+}
+
+dt {
+    color: #000033;
+}
+
+.resort {
+    color: #5C7FA3;
+}
+
+h1 {
+    margin-bottom: 0;
+}

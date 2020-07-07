@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pacific Trails Resort :: Reservations</title>
+    <link rel="stylesheet" href="pacific.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Pacific Trails Resort</h1>
+        </header>
+    
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="yurts.html">Yurts</a></li>
+                <li><a href="activities.html">Activities</a></li>
+                <li><a href="reservations.html">Reservations<a></a></li>
+            </ul>
+        </nav>
+    
+        <main>
+            <h2>Reservations at Pacific Trails.</h2>
+            
+            <h3>Contact Us Today!</h3>
+            <form action="http://webdevbasics.net/scripts/pacific.php">
+                <label for="myFName">First Name:</label>
+                <input type="text" id="myFName" name="myFName">
+
+                <label for="myLName">Last Name:</label>
+                <input type="text" id="myLName" name="myLName">
+
+                <label for="myEmail">E-mail Address:</label>
+                <input type="text" id="myEmail" name="myEmail" size="35">
+
+                <label for="myPhone">Phone Number:</label>
+                <input type="text" id="myPhone" name="myPhone" maxlength="12">
+
+                <label for="myComments">Comments:</label>
+                <textarea id="myComments" name="myComments" rows="2" cols="30"></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+    
+            <div id="contact">
+                <span class="resort">Pacific Trails Resort</span><br>
+                12010 Pacific Trails Road<br>
+                Zephyr, CA 95555<br><br>
+                <a id="mobile" href="tel:888-555-5555">888-555-5555</a>
+                <span id="desktop">888-555-5555</span>
+            </div>
+        </main>
+    
+        <footer>
+            Copyright &copy; 2018 Pacific Trails Resort<br><a href="mailto:tachatz@my.wctc.edu">tachatz@my.wctc.edu</a>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+body {
+    background-color: #FFFFFF;
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #000033;
+    color: #FFFFFF;
+    background-image: url("sunset.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    line-height: 400%;
+    text-indent: 1em;
+}
+
+nav {
+    background-color: #3399CC;
+    font-weight: bold;
+}
+
+dt {
+    color: #000033;
+}
+
+.resort {
+    color: #5C7FA3;
+}
+
+h1 {
+    margin-bottom: 0;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+h2 {
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+h3 {
+    font-family: Georgia, "Times New Roman", serif;
+    color: #000033;
+}
+
+ul {
+    list-style-image: url("marker.gif");
+}
+
+footer {
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+.resort {
+    font-weight: bold;
+}
+
+#contact {
+    font-size: 90%;
+}
