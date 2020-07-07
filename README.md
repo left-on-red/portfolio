@@ -16,7 +16,7 @@ Intro to Programming (Intro to Programming 2019-2020 first semester) - First pro
 
 Python (Python Programming 2019-2020 3rd quarter) - Also taken at WCTC. As you may have guessed, it's entirely Python
 
-
+Web Development (Intro to Web Development 2019-2020 4th quarter) - Taken at WCTC. All general HTML and CSS. each lab and assignment build upon the previous except for a few exceptions.
 
 ### Special Projects
 
@@ -25,3 +25,5 @@ Throughout all my classes, there have been a few projects that I'm especially pr
 These projects include:
 - pokedex (App Development Final)
 - pokemonBattleSimulator (AP Computer Science A Final)
+
+For my Web Development (WCTC) final, I turned in a project that I have been previously working on which already has it's own git repository and will potentially be updated in the future. So for that case, I'll link it right [here](https://github.com/shadeRed/horizons-compendium/).
