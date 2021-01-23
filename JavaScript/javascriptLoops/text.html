@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="loops.css">
+
+    <title>Looping to Display Text</title>
+</head>
+
+
+<body id="text">
+    <div class="container w-50">
+        <h1>Loop Practice: Text</h1>
+        <h2>Go to <a href="index.html">Loop Practice: Images</a></h2>
+
+        <form id="loopTestForm">
+
+            <div class="row align-items-end">
+                <div class="col-8">
+                    <div class="form-group">
+                        <label for="myNumber">Enter a whole number (1 or higher)</label>
+                        <input type="number" name="myNumber" id="myNumber" class="form-control" value="5" autofocus>
+                    </div>
+                </div>
+                <div class="col">
+                    <button class="btn btn-primary">Run Loop</button>
+                </div>
+            </div>
+            <fieldset>
+                <legend>Choose Your Loop</legend>
+                <div class="form-group">
+                    <input type="radio" name="loop-type" value="while-loop"
+                           id="while-loop" class="form-check-input" checked>
+                    <label for="while-loop">
+                        While Loop: Print the letter 'A' N times
+                        <br><br>
+                        Or for a challenge, print the first N letters of the alphabet! (<a
+                            href="https://www.w3schools.com/jsref/jsref_fromcharcode.asp">Hint</a>)
+                    </label>
+                    <div id="while-result">&nbsp;</div>
+                </div>
+                <div class="form-group">
+                    <input type="radio" name="loop-type" value="do-while-loop"
+                           id="do-while-loop" class="form-check-input">
+                    <label for="do-while-loop" class="form-check-label">
+                        Do-While Loop: Print the numbers 1 through N
+                    </label>
+                    <div id="do-while-result">&nbsp;</div>
+                </div>
+                <div class="form-group">
+                    <input type="radio" name="loop-type" value="for-loop"
+                           id="for-loop" class="form-check-input">
+                    <label for="for-loop" class="form-check-label">
+                        For Loop: Print the <strong>sum</strong> of numbers 1 through N
+                    </label>
+                    <div id="for-result">&nbsp;</div>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <!-- jQuery validation -->
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.10.0/jquery.validate.min.js"></script>
+    <!-- My script -->
+    <script src="text.js"></script>
+
+</body>
+</html>

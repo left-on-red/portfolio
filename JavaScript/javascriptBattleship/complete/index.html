@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../battleship.css">
+
+    <title>Battleship</title>
+
+</head>
+
+<body>
+    <div class="container w-50">
+        <h1>Welcome to Battleship</h1>
+
+        <!-- If either player loses both of their ships, the game is over -->
+        <p>
+            <span id="gameOverMsg">Game Over</span>
+        </p>
+
+        <div id="board" class="row">
+
+            <div id="playerOne" class="col-6">
+
+                <h3>Player One</h3>
+
+                <!-- Player 1's submarine has three checkboxes -->
+                <fieldset>
+                    <legend>Submarine</legend>
+                    <img src="../submarine.JPG" alt="Submarine" width="50%">
+                    <div class="form-group">
+                        <input type="checkbox" id="p1-sub1" class="form-check-input">
+                        <label for="p1-sub1" class="form-check-label">Spot 1</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="checkbox" id="p1-sub2" class="form-check-input">
+                        <label for="p1-sub2" class="form-check-label">Spot 2</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="checkbox" id="p1-sub3" class="form-check-input">
+                        <label for="p1-sub3" class="form-check-label">Spot 3</label>
+                    </div>
+                </fieldset>
+
+                <!-- Player 1's battleship has four checkboxes -->
+                <fieldset>
+                    <legend>Battleship</legend>
+                    <img src="../battleship.JPG" alt="Battleship" width="50%"/>
+                    <div class="form-group">
+                        <input type="checkbox" id="p1-bship1" class="form-check-input">
+                        <label for="p1-bship1" class="form-check-label">Spot 1</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="checkbox" id="p1-bship2" class="form-check-input">
+                        <label for="p1-bship2" class="form-check-label">Spot 2</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="checkbox" id="p1-bship3" class="form-check-input">
+                        <label for="p1-bship3" class="form-check-label">Spot 3</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="checkbox" id="p1-bship4" class="form-check-input">
+                        <label for="p1-bship4" class="form-check-label">Spot 4</label>
+                    </div>
+                </fieldset>
+
+                <!-- Spans are initially hidden with CSS -->
+                <p>
+                    <span class="gamemsg" id="p1-sub-msg">Player One's submarine was sunk!</span><br/>
+                    <span class="gamemsg" id="p1-bship-msg">Player One's battleship was sunk!</span><br/>
+                </p>
+
+            </div>
+
+
+            <div id="playerTwo" class="col-6">
+                <h3>Player Two</h3>
+
+                <!-- Player 2's submarine has three checkboxes -->
+                <fieldset>
+                    <legend>Submarine</legend>
+                    <img src="../submarine.JPG" alt="Submarine" width="50%"/>
+                    <div class="form-group">
+                        <input type="checkbox" id="p2-sub1" class="form-check-input">
+                        <label for="p2-sub1" class="form-check-label">Spot 1</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="checkbox" id="p2-sub2" class="form-check-input">
+                        <label for="p2-sub2" class="form-check-label">Spot 2</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="checkbox" id="p2-sub3" class="form-check-input">
+                        <label for="p2-sub3" class="form-check-label">Spot 3</label>
+                    </div>
+                </fieldset>
+
+                <!-- Player 2's battleship has four checkboxes -->
+                <fieldset>
+                    <legend>Battleship</legend>
+                    <img src="../battleship.JPG" alt="Battleship" width="50%"/>
+                    <div class="form-group">
+                        <input type="checkbox" id="p2-bship1" class="form-check-input">
+                        <label for="p2-bship1" class="form-check-label">Spot 1</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="checkbox" id="p2-bship2" class="form-check-input">
+                        <label for="p2-bship2" class="form-check-label">Spot 2</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="checkbox" id="p2-bship3" class="form-check-input">
+                        <label for="p2-bship3" class="form-check-label">Spot 3</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="checkbox" id="p2-bship4" class="form-check-input">
+                        <label for="p2-bship4" class="form-check-label">Spot 4</label>
+                    </div>
+                </fieldset>
+
+                <!-- Spans are initially hidden with CSS -->
+                <p>
+                    <span class="gamemsg" id="p2-sub-msg">Player Two's submarine was sunk!</span><br/>
+                    <span class="gamemsg" id="p2-bship-msg">Player Two's battleship was sunk!</span><br/>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+<script src="battleship.js"></script>
+</html>

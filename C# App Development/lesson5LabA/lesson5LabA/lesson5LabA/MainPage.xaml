@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="lesson5LabA.MainPage">
+
+    <StackLayout>
+        <Grid ColumnSpacing="0" RowSpacing="0" HorizontalOptions="FillAndExpand" Margin="0" Padding="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="300"/>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="60"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Label Text="test label 1" HorizontalTextAlignment="Center" FontSize="Medium" Grid.Column="0" Grid.Row="0" />
+            <Button Text="test button 1" BackgroundColor="#FF6060" TextColor="White" Grid.Column="1" Grid.Row="0" />
+        </Grid>
+
+
+        <Grid ColumnSpacing="0" RowSpacing="0" HorizontalOptions="FillAndExpand" Margin="0" Padding="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="80"></RowDefinition>
+                <RowDefinition Height="80"></RowDefinition>
+                <RowDefinition Height="80"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Label Text="test label 2" HorizontalTextAlignment="Center" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Center"  Margin="0" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" />
+            <Button Text="test button 2" HorizontalOptions="FillAndExpand" Grid.Column="0" Grid.Row="1" />
+            <Button Text="test button 3" HorizontalOptions="FillAndExpand" Grid.Column="1" Grid.Row="1" />
+            <Button Text="test button 4" HorizontalOptions="FillAndExpand" Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2" />
+        </Grid>
+    </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Library: JavaScript Camp</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../validation.css">
+    <style>
+        label.error {
+            color: red;
+            font-size: smaller;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container w-75">
+        <h1>Welcome to JavaScript Camp!</h1>
+        <img src="../camplogo.png" alt="JS Camp Logo">
+        <h2>For kids in 5th through 8th grade.</h2>
+
+        <fieldset>
+            <legend>Registration</legend>
+
+            <form id="registrationForm">
+
+                <div class="form-group">
+                    <label for="firstName">First Name (Required)</label>
+                    <input name="firstName" id="firstName" type="text" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label for="grade">Grade (5-8)</label>
+                    <input name="grade" id="grade" type="number" class="form-control">
+                </div>
+
+                <button class="btn btn-primary">Register</button>
+            </form>
+        </fieldset>
+        <p id="message"></p>
+    </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.js"></script>
+<script src="validation.js"></script>
+
+</html>

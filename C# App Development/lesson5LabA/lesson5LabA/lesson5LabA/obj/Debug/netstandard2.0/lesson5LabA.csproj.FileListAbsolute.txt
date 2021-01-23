@@ -1,0 +1,14 @@
+G:\App Development\lesson5LabA\lesson5LabA\lesson5LabA\obj\Debug\netstandard2.0\lesson5LabA.csprojAssemblyReference.cache
+G:\App Development\lesson5LabA\lesson5LabA\lesson5LabA\obj\Debug\netstandard2.0\App.xaml.g.cs
+G:\App Development\lesson5LabA\lesson5LabA\lesson5LabA\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+G:\App Development\lesson5LabA\lesson5LabA\lesson5LabA\obj\Debug\netstandard2.0\lesson5LabA.csproj.CoreCompileInputs.cache
+G:\App Development\lesson5LabA\lesson5LabA\lesson5LabA\obj\Debug\netstandard2.0\lesson5LabA.AssemblyInfoInputs.cache
+G:\App Development\lesson5LabA\lesson5LabA\lesson5LabA\obj\Debug\netstandard2.0\lesson5LabA.AssemblyInfo.cs
+G:\App Development\lesson5LabA\lesson5LabA\lesson5LabA\obj\Debug\netstandard2.0\lesson5LabA.dll
+G:\App Development\lesson5LabA\lesson5LabA\lesson5LabA\obj\Debug\netstandard2.0\ref\lesson5LabA.dll
+G:\App Development\lesson5LabA\lesson5LabA\lesson5LabA\obj\Debug\netstandard2.0\lesson5LabA.pdb
+G:\App Development\lesson5LabA\lesson5LabA\lesson5LabA\bin\Debug\netstandard2.0\lesson5LabA.deps.json
+G:\App Development\lesson5LabA\lesson5LabA\lesson5LabA\bin\Debug\netstandard2.0\lesson5LabA.dll
+G:\App Development\lesson5LabA\lesson5LabA\lesson5LabA\bin\Debug\netstandard2.0\ref\lesson5LabA.dll
+G:\App Development\lesson5LabA\lesson5LabA\lesson5LabA\bin\Debug\netstandard2.0\lesson5LabA.pdb
+G:\App Development\lesson5LabA\lesson5LabA\lesson5LabA\obj\Debug\netstandard2.0\XamlC.stamp

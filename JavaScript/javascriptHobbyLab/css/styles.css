@@ -1,0 +1,60 @@
+/* Default link styling */
+a:link {
+    color: #0271fb;
+}
+
+a:visited {
+    color: #bd02fb;
+}
+
+a:hover, a:focus {
+    color: #000;
+}
+
+a:active {
+    color: #fb0e02;
+}
+
+
+body > header, body > footer {
+    background-color: #555555;
+    height: 50px;
+    padding: 20px;
+    color: #ffd9f7;
+}
+
+.wrap {
+    margin: 20px;
+}
+
+main {
+    padding: 20px;
+    width: 60%;
+    float: left;
+    margin-right: 2%;
+
+}
+
+aside {
+    width: 30%;
+    float: left;
+    background-color: #DFDFDF;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.clearfloat {
+    clear: both;
+}
+
+.aside-banner {
+    text-align: center;
+}
+
+.aside-banner img {
+    width: 90%;
+}
+
+.dyk {
+    color: #272044;
+}

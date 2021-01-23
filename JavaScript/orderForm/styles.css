@@ -1,0 +1,46 @@
+body {
+    font-family: Calibri, sans-serif;
+}
+
+#container {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+table {
+    border-collapse: collapse;
+    border: none;
+    table-layout: fixed;
+}
+
+table tr td, table tr th {
+    margin: 0;
+}
+
+table tr td input {
+    border: none;
+}
+
+table tr td:nth-child(1), table tr th:nth-child(1), table tr td:nth-child(1) input {
+    width: 30px;
+}
+
+table tr td:nth-child(3), table tr th:nth-child(3) {
+    text-align: right;
+}
+
+table tr td:nth-child(4), table tr th:nth-child(4) {
+    width: 100px;
+    text-align: right;
+}
+
+.productName {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.grandTotal {
+    font-weight: bold;
+}

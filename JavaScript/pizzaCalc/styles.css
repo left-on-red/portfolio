@@ -1,0 +1,36 @@
+form {
+    margin: 0 auto;
+}
+
+form .form-group {
+    width: 100%;
+    padding: 20px;
+    margin: 0;
+    border-bottom: 2px solid #00000023;
+}
+
+form .form-group:last-child { border-bottom: none; }
+
+form .form-group label {
+    display: inline-block;
+    text-align: right;
+}
+
+form .form-group div {
+    margin: 0 auto;
+}
+
+form .form-group div button {
+    width: 100%;
+}
+
+form .form-group div p {
+    margin-top: 50px;
+}
+
+form .form-group div p#result {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    text-align: center;
+}

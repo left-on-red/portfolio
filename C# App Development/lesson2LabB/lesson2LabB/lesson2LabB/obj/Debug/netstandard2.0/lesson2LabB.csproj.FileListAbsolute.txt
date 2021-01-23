@@ -1,0 +1,14 @@
+G:\App Development\lesson2LabB\lesson2LabB\lesson2LabB\obj\Debug\netstandard2.0\lesson2LabB.csprojAssemblyReference.cache
+G:\App Development\lesson2LabB\lesson2LabB\lesson2LabB\obj\Debug\netstandard2.0\App.xaml.g.cs
+G:\App Development\lesson2LabB\lesson2LabB\lesson2LabB\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+G:\App Development\lesson2LabB\lesson2LabB\lesson2LabB\obj\Debug\netstandard2.0\lesson2LabB.csproj.CoreCompileInputs.cache
+G:\App Development\lesson2LabB\lesson2LabB\lesson2LabB\obj\Debug\netstandard2.0\lesson2LabB.AssemblyInfoInputs.cache
+G:\App Development\lesson2LabB\lesson2LabB\lesson2LabB\obj\Debug\netstandard2.0\lesson2LabB.AssemblyInfo.cs
+G:\App Development\lesson2LabB\lesson2LabB\lesson2LabB\obj\Debug\netstandard2.0\lesson2LabB.dll
+G:\App Development\lesson2LabB\lesson2LabB\lesson2LabB\obj\Debug\netstandard2.0\ref\lesson2LabB.dll
+G:\App Development\lesson2LabB\lesson2LabB\lesson2LabB\obj\Debug\netstandard2.0\lesson2LabB.pdb
+G:\App Development\lesson2LabB\lesson2LabB\lesson2LabB\bin\Debug\netstandard2.0\lesson2LabB.deps.json
+G:\App Development\lesson2LabB\lesson2LabB\lesson2LabB\bin\Debug\netstandard2.0\lesson2LabB.dll
+G:\App Development\lesson2LabB\lesson2LabB\lesson2LabB\bin\Debug\netstandard2.0\ref\lesson2LabB.dll
+G:\App Development\lesson2LabB\lesson2LabB\lesson2LabB\bin\Debug\netstandard2.0\lesson2LabB.pdb
+G:\App Development\lesson2LabB\lesson2LabB\lesson2LabB\obj\Debug\netstandard2.0\XamlC.stamp

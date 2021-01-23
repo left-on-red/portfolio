@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabs</title>
+    <!-- Bootstrap styles first -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Our styles -->
+    <link href="tabs.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body id="page">
+    <div class="container">
+        <nav>
+            <ul id="tabs" class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#shop">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#new">Completely New All Original Tab™</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="tab-content">
+            <div id="home" class="tab-pane active">
+                <h2>This is Tab 1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consequuntur officia quisquam
+                    repellendus sequi? Ad architecto aut dicta labore molestias nulla perferendis recusandae vel
+                    veritatis.</p>
+                <p>
+                    <img src="img/Ham-Sandwich.jpg" alt="Ham sandwich" id="sandwich">
+                    <br>
+                    <button id="animateButton">Animate!</button>
+                </p>
+            </div>
+
+            <div id="shop" class="tab-pane">
+                <h2>Thanks for visiting Tab 2</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam fuga mollitia repudiandae sit
+                    voluptate? Adipisci delectus et molestiae natus omnis quis, vitae voluptatem voluptatibus.
+                    Quisquam?</p>
+            </div>
+
+            <div id="contact" class="tab-pane">
+                <h2>Tab 3 is the best tab</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium aspernatur commodi deleniti
+                    dignissimos dolores dolorum ea eum excepturi omnis, quos, repellat saepe sed soluta!</p>
+                <img src="img/die.png" alt="Six sided die" height="225" width="225"/>
+            </div>
+
+            <div id="new" class="tab-pane">
+                <h2>Tab 4 is the ultimate tab experience</h2>
+                <p>Here's some random filler text that isn't lorem ipsum to make this tab way more unique! Complete with a completely original gradient background!</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery first -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <!-- Popper and Bootstrap second -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Our code last -->
+    <script src="tabs.js"></script>
+
+</body>
+
+</html>

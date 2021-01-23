@@ -1,0 +1,9 @@
+G:\App Development\lesson7LabA\lesson7LabA\lesson7LabA\obj\Debug\netstandard2.0\lesson7LabA.csprojAssemblyReference.cache
+G:\App Development\lesson7LabA\lesson7LabA\lesson7LabA\obj\Debug\netstandard2.0\App.xaml.g.cs
+G:\App Development\lesson7LabA\lesson7LabA\lesson7LabA\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+G:\App Development\lesson7LabA\lesson7LabA\lesson7LabA\obj\Debug\netstandard2.0\lesson7LabA.csproj.CoreCompileInputs.cache
+G:\App Development\lesson7LabA\lesson7LabA\lesson7LabA\obj\Debug\netstandard2.0\lesson7LabA.AssemblyInfoInputs.cache
+G:\App Development\lesson7LabA\lesson7LabA\lesson7LabA\obj\Debug\netstandard2.0\lesson7LabA.AssemblyInfo.cs
+G:\App Development\lesson7LabA\lesson7LabA\lesson7LabA\obj\Debug\netstandard2.0\lesson7LabA.dll
+G:\App Development\lesson7LabA\lesson7LabA\lesson7LabA\obj\Debug\netstandard2.0\ref\lesson7LabA.dll
+G:\App Development\lesson7LabA\lesson7LabA\lesson7LabA\obj\Debug\netstandard2.0\lesson7LabA.pdb

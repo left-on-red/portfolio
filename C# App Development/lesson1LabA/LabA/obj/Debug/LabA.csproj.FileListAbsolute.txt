@@ -1,0 +1,7 @@
+G:\App Development\lesson1LabA\LabA\bin\Debug\LabA.exe.config
+G:\App Development\lesson1LabA\LabA\bin\Debug\LabA.exe
+G:\App Development\lesson1LabA\LabA\bin\Debug\LabA.pdb
+G:\App Development\lesson1LabA\LabA\obj\Debug\LabA.csprojAssemblyReference.cache
+G:\App Development\lesson1LabA\LabA\obj\Debug\LabA.csproj.CoreCompileInputs.cache
+G:\App Development\lesson1LabA\LabA\obj\Debug\LabA.exe
+G:\App Development\lesson1LabA\LabA\obj\Debug\LabA.pdb

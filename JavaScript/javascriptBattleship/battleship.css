@@ -1,0 +1,45 @@
+body {
+    background: lightskyblue;
+}
+
+#playerOne fieldset {
+    border: 1px blue solid;
+}
+
+#playerOne legend, #playerOne h3 {
+    color: blue;
+}
+
+#playerTwo fieldset {
+    border: 1px darkmagenta solid;
+}
+
+#playerTwo legend, #playerTwo h3 {
+    color: darkmagenta;
+}
+
+fieldset {
+    padding: 10px 30px;
+}
+
+h1, h3, p {
+    text-align: center;
+}
+
+p {
+    color: firebrick;
+}
+
+img {
+    float: right;
+}
+
+span.gamemsg {
+    display: none;
+}
+
+#gameOverMsg {
+    display: none;
+    font-size: 24px;
+    font-weight: bold;
+}

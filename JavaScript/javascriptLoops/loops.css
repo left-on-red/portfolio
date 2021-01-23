@@ -1,0 +1,34 @@
+fieldset, #form {
+    padding: 20px;
+    margin-top: 20px;
+    border: #999 2px dashed;
+}
+
+input {
+    margin: 10px 0;
+}
+
+form button {
+    margin-bottom: 16px;
+}
+
+fieldset .form-group {
+    margin-left: 20px;
+}
+
+body {
+    margin: 20px;
+}
+
+body#text {
+    background-color: darkgreen;
+    color: beige;
+}
+
+label.error {
+    display: inline;
+    clear: none;
+    color: red;
+    font-size: smaller;
+    margin-left: 5px;
+}

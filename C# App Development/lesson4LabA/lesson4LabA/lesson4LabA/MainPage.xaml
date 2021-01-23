@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="lesson4LabA.MainPage">
+
+    <StackLayout VerticalOptions="Center">
+        <Grid ColumnSpacing="0" RowSpacing="0" HorizontalOptions="FillAndExpand" Margin="0" Padding="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="300"/>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="60"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Label Text="" HorizontalTextAlignment="Center" FontSize="Medium" x:Name="outputLabel" Grid.Column="0" Grid.Row="0" />
+            <Button Text="x" Clicked="backPressed" BackgroundColor="#FF6060" TextColor="White" Grid.Column="1" Grid.Row="0" />
+        </Grid>
+
+
+        <Grid ColumnSpacing="0" RowSpacing="0" HorizontalOptions="FillAndExpand" Margin="0" Padding="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="80"></RowDefinition>
+                <RowDefinition Height="80"></RowDefinition>
+                <RowDefinition Height="80"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Label Text="" HorizontalTextAlignment="Center" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Center"  Margin="0" x:Name="inputLabel" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" />
+            <Button Text="." Clicked="dotPressed" HorizontalOptions="FillAndExpand" Grid.Column="0" Grid.Row="1" />
+            <Button Text="-" Clicked="dashPressed" HorizontalOptions="FillAndExpand" Grid.Column="1" Grid.Row="1" />
+            <Button Text="space" Clicked="spacePressed" HorizontalOptions="FillAndExpand" Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2" />
+        </Grid>
+        
+        <!--<Grid VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width=""></ColumnDefinition>
+                <ColumnDefinition Width=""></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Button Text="." Clicked="dotPressed" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Grid.Row="0" Grid.Column="0" />
+            <Button Text="-" Clicked="dashPressed" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Grid.Row="0" Grid.Column="1" />
+        </Grid>-->
+
+    </StackLayout>
+
+</ContentPage>

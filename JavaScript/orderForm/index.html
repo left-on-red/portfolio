@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="container">
+        <table>
+            <tr>
+                <th>Qty</th>
+                <th>Product</th>
+                <th>Price</th>
+                <th>Total</th>
+            </tr>
+
+            <tr>
+                <td><input type="number" min="0" value="1" id="input1"></td>
+                <td><p class="productName">Learning jQuery</p></td>
+                <td><p>$39.99</p></td>
+                <td><p id="total1"></p></td>
+            </tr>
+
+            <tr>
+                <td><input type="number" min="0" value="2" id="input2"></td>
+                <td><p class="productName">jQuery Donation</p></td>
+                <td><p>$14.99</p></td>
+                <td><p id="total2"></p></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td></td>
+                <td><p class="grandTotal">Grand Total:</p></td>
+                <td><p id="total3"></p></td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+
+</html>

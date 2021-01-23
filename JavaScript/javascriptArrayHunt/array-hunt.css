@@ -1,0 +1,23 @@
+body {
+    background-image: url("repeating-background.gif");
+}
+
+h1 {
+    text-align: center;
+    font-size: 75px;
+}
+
+h1, figure {
+    margin: 25px 0;
+    font-family: 'Covered By Your Grace', cursive;
+    text-align: center;
+}
+
+figure {
+    font-size: 25px;
+}
+
+button {
+    margin-bottom: 15px;
+}
+

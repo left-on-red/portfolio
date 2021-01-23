@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="loops.css">
+
+    <title>Looping to Display Images</title>
+</head>
+
+<body>
+    <div class="container text-center w-50">
+        <h1>Loop Practice: Images</h1>
+
+        <div class="row">
+            <div class="col-6" id="form">
+                How many pictures?
+                <br>
+                <input type="number" value="5" id="numPics">
+                <br>
+                <button class="btn btn-primary">Display</button>
+            </div>
+
+            <div class="col-6">
+                <fieldset>
+                    <div class="row">
+                        <div class="col-5 text-right">
+                            <input type="radio" id="picture-hk" name="pictureSelect" value="hk.jpg" checked/>
+                        </div>
+                        <div class="col text-left">
+                            <label for="picture-hk">
+                                <img src="img/hk.jpg" alt="Hello Kitty"/>
+                            </label>
+                        </div>
+                        <br/>
+                    </div>
+                    <div class="row">
+                        <div class="col-5 text-right">
+                            <input type="radio" id="picture-dino" name="pictureSelect" value="dino.jpg"/>
+                        </div>
+                        <div class="col text-left">
+                            <label for="picture-dino">
+                                <img src="img/dino.jpg" alt="Dinosaur"/>
+                            </label>
+                        </div>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <fieldset>
+                    <legend>While Loop: <span id="while-num">N + 1</span> Images</legend>
+                    <div id="while-loop" class="imageHolder">
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <fieldset>
+                    <legend>Do-While Loop: <span id="do-while-num">N - 1</span> Images</legend>
+                    <div id="do-while-loop" class="imageHolder">
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <fieldset>
+                    <legend>For Loop: <span id="for-num">N</span> Images</legend>
+                    <div id="for-loop" class="imageHolder">
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </div>
+</body>
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+<script src="images.js"></script>
+
+</html>

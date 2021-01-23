@@ -1,0 +1,14 @@
+G:\App Development\lesson4LabA\lesson4LabA\lesson4LabA\bin\Debug\netstandard2.0\lesson4LabA.deps.json
+G:\App Development\lesson4LabA\lesson4LabA\lesson4LabA\bin\Debug\netstandard2.0\lesson4LabA.dll
+G:\App Development\lesson4LabA\lesson4LabA\lesson4LabA\bin\Debug\netstandard2.0\ref\lesson4LabA.dll
+G:\App Development\lesson4LabA\lesson4LabA\lesson4LabA\bin\Debug\netstandard2.0\lesson4LabA.pdb
+G:\App Development\lesson4LabA\lesson4LabA\lesson4LabA\obj\Debug\netstandard2.0\lesson4LabA.csprojAssemblyReference.cache
+G:\App Development\lesson4LabA\lesson4LabA\lesson4LabA\obj\Debug\netstandard2.0\App.xaml.g.cs
+G:\App Development\lesson4LabA\lesson4LabA\lesson4LabA\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+G:\App Development\lesson4LabA\lesson4LabA\lesson4LabA\obj\Debug\netstandard2.0\lesson4LabA.csproj.CoreCompileInputs.cache
+G:\App Development\lesson4LabA\lesson4LabA\lesson4LabA\obj\Debug\netstandard2.0\lesson4LabA.AssemblyInfoInputs.cache
+G:\App Development\lesson4LabA\lesson4LabA\lesson4LabA\obj\Debug\netstandard2.0\lesson4LabA.AssemblyInfo.cs
+G:\App Development\lesson4LabA\lesson4LabA\lesson4LabA\obj\Debug\netstandard2.0\XamlC.stamp
+G:\App Development\lesson4LabA\lesson4LabA\lesson4LabA\obj\Debug\netstandard2.0\lesson4LabA.dll
+G:\App Development\lesson4LabA\lesson4LabA\lesson4LabA\obj\Debug\netstandard2.0\ref\lesson4LabA.dll
+G:\App Development\lesson4LabA\lesson4LabA\lesson4LabA\obj\Debug\netstandard2.0\lesson4LabA.pdb

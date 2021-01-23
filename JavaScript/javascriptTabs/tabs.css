@@ -1,0 +1,25 @@
+body {
+    padding: 25px;
+    background-color: blanchedalmond;
+}
+
+.tab-pane {
+    padding: 10px;
+}
+#home {
+    background-color: red;
+}
+
+#shop {
+    background-color: green;
+}
+
+#contact {
+    background-color: blue;
+    color: aliceblue;
+}
+
+#new {
+    background-image: linear-gradient(to right, red, orange, yellow, green, cyan, blue, purple);
+    color: white;
+}

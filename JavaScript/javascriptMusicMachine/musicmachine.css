@@ -1,0 +1,55 @@
+body {
+    background-image: url("musicbg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+button {
+    margin: 25px;
+    width: 150px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Modak', cursive;
+    font-size: 80px;
+    color: darkblue;
+}
+
+footer {
+    text-align: center;
+}
+
+p {
+    font-size: x-large;
+}
+
+.container {
+    background-color: rgba(240, 240, 255, 0.8);
+    border-radius: 20px;
+    margin-top: 25px;
+}
+
+.key {
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+    border: 1px solid rgba(32, 32, 32, 0.2);
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 6px 6px 2px rgba(32, 32, 32, 0.2);
+    margin: 10px;
+}
+
+.key:hover, .playing {
+    box-shadow: 6px 6px 2px rgba(32, 32, 32, 0.5);
+}
+
+.key, #keyPlaying {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#keyPlaying {
+    padding: 10px;
+}
