@@ -3,8 +3,8 @@
 This is a portfolio repository containing all of the code that I've written for every single programming class I have ever taken.
 
 Education:
-- North ([Waukesha North High School](https://sdw.waukesha.k12.wi.us/NorthHS))
-- WCTC ([Wisconsin County Technical College](https://www.wctc.edu/))
+- North 2016-2020 ([Waukesha North High School](https://sdw.waukesha.k12.wi.us/NorthHS))
+- WCTC 2020-present ([Wisconsin County Technical College](https://www.wctc.edu/))
 
 Web I (Intro to the Web I 2016-2017 1st semester @ North) - Mostly pretty generic HTML and CSS stuff.
 
@@ -28,12 +28,12 @@ Dotnet DB (Dotnet Database Programming 2020-2021 1st semester @ WCTC) - All .Net
 
 JavaScript (JavaScript I 2020-2021 2nd quarter @ WCTC) - Mostly JavaScript as I'm sure you could guess. All "raw" JavaScript with DOM manipulation and a little bit of JQuery.
 
-### Special Projects
+JavaScript 2 (2020-2021 2nd semester @ WCTC) - Advanced JavaScript concepts. Mainly Vue.js framework applications.
 
-Throughout all my classes, there have been a few projects that I'm especially proud of. These projects are present in their respective class folders, but they also have their own repository on my GitHub.
+Dotnet Web Development (2020-2021 2nd semester @ WCTC) - All C# ASP.NET Web Development.
 
-These projects include:
-- pokedex (App Development Final)
-- pokemonBattleSimulator (AP Computer Science A Final)
+Introduction to Java (2020-2021 3rd quarter @ WCTC) - All Java Programming.
 
-For my Web Development (WCTC) final, I turned in a project that I have been previously working on which already has it's own git repository and will potentially be updated in the future. So for that case, I'll link it right [here](https://github.com/shadeRed/horizons-compendium/).
+Software Architecture (2020-2021 4th quarter @ WCTC) - Software design fundamentals and writing structually safe and maintainable code.
+
+A page showcasing live demos of some of the various web applications that I've written can be found [here.](https://shadeRed.github.io/portfolio)

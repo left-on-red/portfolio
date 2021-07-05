@@ -1,0 +1,3 @@
+fred | Meow
+top | Bark
+idk | Don't forget to do the assigned reading!

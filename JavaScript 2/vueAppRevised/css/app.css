@@ -1,0 +1,4 @@
+/* I'm honestly kinda impressed that this was the only line of css that I had to write for this (kind of a fan of vuetify) */
+.v-input__slot {
+    margin: 15px 0px 0px 0px;
+}

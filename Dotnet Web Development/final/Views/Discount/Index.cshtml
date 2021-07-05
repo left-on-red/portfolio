@@ -1,0 +1,43 @@
+@using Northwind.Models
+@model IEnumerable<Discount>
+
+<h2 class="mt-3"><i class="fas fa-list-ul"></i> List of all discounts</h2>
+<ul class="list-group">
+    @foreach (Discount d in Model)
+    {
+        <li class="list-group-item">
+            <p style="float: left;"><a asp-action="Detail" asp-route-id="@d.DiscountID">@d.Title</a></p>
+            @if (User?.Identity?.IsAuthenticated == true)
+            {
+                if (User.IsInRole("employee"))
+                {
+                    <div style="float: right;">
+                        <a class="btn btn-sm btn-outline-primary" asp-action="Edit" asp-route-id="@d.DiscountID" method="post">Edit</a>
+                        <a class="btn btn-sm btn-outline-danger" onclick="deleteDiscount('@d.DiscountID')">Delete</a>
+                    </div>
+                }
+            }
+        </li>
+    }
+</ul>
+
+@if (User?.Identity?.IsAuthenticated == true)
+{
+    if (User.IsInRole("employee"))
+    {
+        <a class="btn btn-outline-primary" href="/Discount/Create">Add</a>
+    }
+}
+
+@section scripts
+{
+    <script>
+        function deleteDiscount(id) {
+            $.ajax({
+                type: 'POST',
+                url: `/Discount/Delete/${id}`,
+                success: () => location.reload()
+            });
+        }
+    </script>
+}

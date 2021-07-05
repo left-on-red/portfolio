@@ -1,0 +1,38 @@
+@using Blogs.Models
+@model PostViewModel
+
+<div class="bg-primary m-1 p-1 text-white"><h4>@Model.blog.Name Details</h4></div>
+
+@if (Model.Posts.Count() == 0)
+{
+    <p>There are no posts</p>
+}
+else
+{
+    <ul>
+        @foreach (Post post in Model.Posts)
+        {
+            <li>
+                @post.Title - @post.Content | 
+
+                @if (User?.Identity?.IsAuthenticated ?? true) {
+                    if (User.IsInRole("moderate")) {
+                        <a asp-action="DeletePost" asp-route-id="@post.PostId">Delete</a>
+                    }
+                }
+            </li>
+        }
+    </ul>
+}
+
+<hr />
+<a asp-action="Index">Home</a> | 
+@if (User?.Identity?.IsAuthenticated ?? true) {
+    <a asp-action="AddPost" asp-route-id="@Model.blog.BlogId">New Post</a>
+}
+
+
+else {
+    <hr />
+    <a asp-controller="Account" asp-action="Login">Login</a>
+}

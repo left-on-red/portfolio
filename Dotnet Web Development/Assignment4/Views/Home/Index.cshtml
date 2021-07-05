@@ -1,0 +1,16 @@
+@using Assignment4.Models
+@model IEnumerable<Category>;
+
+<div class="bg-primary m-1 p-1 text-white"><h4>Categories</h4></div>
+<ul>
+    @foreach (Category category in Model)
+    {
+        <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">@category.CategoryName</h5>
+            <p class="card-text">@category.Description</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+        </div>
+    }
+</ul>

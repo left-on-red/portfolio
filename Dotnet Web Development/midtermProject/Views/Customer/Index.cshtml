@@ -1,0 +1,32 @@
+@using Northwind.Models
+@model IEnumerable<Customer>
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th scope="col">Company Name</th>
+            <th scope="col" class="text-right">Address</th>
+            <th scope="col" class="text-right">City</th>
+            <th scope="col" class="text-right">Region</th>
+            <th scope="col" class="text-right">Postal Code</th>
+            <th scope="col" class="text-right">Country</th>
+            <th scope="col" class="text-right">Phone</th>
+            <th scope="col" class="text-right">Fax</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Customer c in Model)
+        {
+        <tr>
+            <td>@c.CompanyName</td>
+            <td class="text-right">@c.Address</td>
+            <td class="text-right">@c.City</td>
+            <td class="text-right">@c.Region</td>
+            <td class="text-right">@c.PostalCode</td>
+            <td class="text-right">@c.Country</td>
+            <td class="text-right">@c.Phone</td>
+            <td class="text-right">@c.Fax</td>
+        </tr>
+        }
+    </tbody>
+</table>

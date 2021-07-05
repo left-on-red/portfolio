@@ -1,0 +1,35 @@
+@using Northwind.Models
+@model Discount
+
+<!-- validation does need to be looked at. I don't think it's behaving as it should -->
+<h1>Add Discount</h1>
+<div asp-validation-summary="All" class="text-danger"></div>
+<form asp-action="Create">
+    <div class="form-group">
+        <label asp-for="@Model.StartTime">Start Time</label>
+        <input asp-for="@Model.StartTime" value='@DateTime.Today.ToString("yyyy-MM-dd")' class="form-control" type="date" placeholder="Start Time" />
+    </div>
+    <div class="form-group">
+        <label asp-for="@Model.EndTime">End Time</label>
+        <input asp-for="@Model.EndTime" value='@DateTime.Today.ToString("yyyy-MM-dd")' class="form-control" type="date" placeholder="End Time" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="@Model.ProductID">Product</label>
+        <select asp-for="@Model.ProductID" asp-items='@(new SelectList(ViewBag.Products, "ProductId", "ProductName"))'></select>
+        
+    </div>
+    <div class="form-group">
+        <label asp-for="@Model.DiscountPercent">Discount Percentage</label>
+        <input asp-for="@Model.DiscountPercent" class="form-control" type="number" value="0" min="0" max="1" step="0.1" />
+    </div>
+    <div class="form-group">
+        <label asp-for="@Model.Title">Title</label>
+        <input asp-for="@Model.Title" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="@Model.Description">Description</label>
+        <input asp-for="@Model.Description" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-outline-primary">Add</button>
+</form>

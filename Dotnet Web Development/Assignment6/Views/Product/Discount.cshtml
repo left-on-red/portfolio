@@ -1,0 +1,15 @@
+@using Northwind.Models
+@model Tuple<List<Discount>, List<Product>>
+
+<h2 class="mt-3"><i class="fas fa-list-ul"></i> Product Discounts</h2>
+<div class="list-group">
+    @foreach (Discount d in Model.Item1)
+    {
+        <li class="list-group-item">
+            <p>@d.Title</p>
+            <p>Product: <b>@Model.Item2.Find(p => p.ProductId == d.ProductID).ProductName</b></p>
+            <p>Discount Code: <b>@d.Code</b></p>
+            <p>Discount Dates: <b>@d.StartTime.ToString("MM/dd/yy") - @d.EndTime.ToString("MM/dd/yy")</b></p>
+        </li>
+    }
+</div>

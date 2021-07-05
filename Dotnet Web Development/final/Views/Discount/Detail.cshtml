@@ -1,0 +1,11 @@
+@using Northwind.Models
+@model DiscountProductPair
+
+<h2 class="mt-3"><i class="fas fa-list-ul"></i> Discount for @Model.product.ProductName</h2>
+<ul class="list-group">
+    <li class="list-group-item">Code: @Model.discount.Code</li>
+    <li class="list-group-item">Description: @Model.discount.Description</li>
+    <li class="list-group-item">Percentage: @Model.discount.DiscountPercent</li>
+    <li class="list-group-item">Title: @Model.discount.Title</li>
+    <li class="list-group-item">Duration: @Model.discount.StartTime.ToString("dd/MM/yyyy") - @Model.discount.EndTime.ToString("dd/MM/yyyy")</li>
+</ul>

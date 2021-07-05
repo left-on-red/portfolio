@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width">
+    <meta charset="utf-8" />
+    <title>Balloons</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <!-- pickadate -->
+    <link rel="stylesheet" href="css/default.css" />
+    <link rel="stylesheet" href="css/default.date.css" />
+    <!-- animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <!-- custom css -->
+    <style>
+        h1 {
+            font-family: 'Londrina Shadow';
+            color: slategray;
+            font-size: 3.5em;
+        }
+        body {
+            font-family: 'Questrial';
+        }
+        h1.animated {
+            display: inline-block;
+        }
+        .ball{
+            visibility: hidden;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- content -->
+    <div class="container">
+        <h1 class="animated heartBeat" id="header" style="transition: all 0.2s;">Happy Birthday!</h1><hr />
+        <form role="form">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter name">
+                    </div>
+                    <div class="form-group">
+                        <label for="birthday">Birthday</label>
+                        <input type="text" class="form-control" id="birthday" placeholder="Enter birthday" />
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Select your favorite balloons</h5>
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="red">
+                                <label class="form-check-label" for="red">Red balloons</label>
+                            </div>
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="silver">
+                                <label class="form-check-label" for="silver">Silver balloons</label>
+                            </div>
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="black">
+                                <label class="form-check-label" for="black">Black balloons</label>
+                            </div>
+                            <div class="form-group">
+                                <button type="button" class="btn btn-outline-primary" id="uncheckAll">Uncheck All Balloons</button>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-outline-primary mt-3" id="submit">Submit</button>
+                </div>
+                <div class="col-sm">
+                    <img src="img/red.png" class="ball" alt="red balloon" id="redImg" />
+                    <img src="img/silver.png" class="ball" alt="silver balloon" id="silverImg" />
+                    <img src="img/black.png" class="ball" alt="black balloon" id="blackImg" />
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <!-- pickadate -->
+    <script src="js/picker.js"></script>
+    <script src="js/picker.date.js"></script>
+    <!-- custom js -->
+    <script src="js/main.js"></script>
+</body>
+</html>

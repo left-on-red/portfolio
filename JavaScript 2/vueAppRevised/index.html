@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Game Collection</title>
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@3.x/css/materialdesignicons.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<div id="app">
+    <v-app>
+        <!--
+            one thing that I'm not a fan of is that if I pass a value to a component, rather than an actual object, Vue doesn't let me modify it.
+            so if I don't want to go through annoying event callbacks, I need to pass this "dialogs" object have each dialog box modify a specific prop to close it
+        -->
+        <add-game :dialogs="dialogs" :games="games"></add-game>
+        <delete-game :dialogs="dialogs" :games="games"></delete-game>
+        <nav-bar :filter="filter"></nav-bar>
+        <v-btn color="accent" dark fab fixed bottom right @click="dialogs.adding = true">
+            <v-icon>mdi-plus</v-icon>
+        </v-btn>
+
+        <v-main>
+            <v-row class="mt-5">
+                <!--
+                    now I have a game component. in my first runthrough of this project, I wasn't really aware of how property binding worked with Vue.
+                    but now it's really easy to bind information because I can just bind the whole object and render each game component based on that.
+                    the only thing that I'm not really sure about now is how I could call either of the dialog boxes from the scope of the component.
+                    I was thinking about generating dialog boxes inside each game component, so each game would have access to its own dialog boxes,
+                    but I wasn't sure if that was good practice. either way, I'm pretty proud of how much I was able to refactor
+                -->
+                <game v-for="(game, g) in filteredGames" :list="games" :game="game" :dialogs="dialogs" :key="g"></game>
+            </v-row>
+        </v-main>
+    </v-app>
+</div>
+</body>
+<!-- Vue -->
+<script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
+
+<!-- Classes -->
+<script src="js/Game.js"></script>
+<script src="js/Filter.js"></script>
+
+<!-- Components -->
+<script src="js/components/GameComponent.js"></script>
+<script src="js/components/NavbarComponent.js"></script>
+<script src="js/components/DialogComponent.js"></script>
+<script src="js/components/AddGameComponent.js"></script>
+<script src="js/components/DeleteGameComponent.js"></script>
+
+<!-- App -->
+<script src="js/app.js"></script>
+</html>

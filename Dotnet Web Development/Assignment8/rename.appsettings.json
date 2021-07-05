@@ -1,0 +1,8 @@
+{
+    "Data": {
+      "Northwind": {
+        "ConnectionString": "Server=xxx;Database=yyy;User ID=zzz;Password=rrr"
+      }
+    }
+  }
+  

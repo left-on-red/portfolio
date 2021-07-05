@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Game Collection</title>
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@3.x/css/materialdesignicons.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<div id="app">
+    <v-app>
+        <add-game :dialog="adding" @close-dialog="adding = false" @add-game="addGame" @edit-game="editGame" ref="gameDialog"></add-game>
+        <confirm-delete :dialog="deleting" @close-dialog="deleting = false" @confirm-delete="removeGame" ref="deleteDialog"></confirm-delete>
+        <nav-bar @filtered="setFilter" ref="nav"></nav-bar>
+        <v-btn color="accent" dark fab fixed bottom right @click="adding = true">
+            <v-icon>mdi-plus</v-icon>
+        </v-btn>
+
+        <v-main>
+            <v-row class="mt-5">
+                <v-col cols="12" sm="4" md="3" v-for="(game, g) in filteredGames">
+                    <v-card class="mx-auto p-0" max-width="400" :key="1">
+                        <h4 class="d-block primary white--text" style="padding: 8px; text-align: center;">{{game.name}}</h4>
+                        <v-card-text>
+                            <div class="mb-3">{{game.publisher}}</div>
+                            <p class="text--primary">{{game.description}}</p>
+                            <p>
+                                <v-chip v-for="(tag, t) in game.tags" :key="t" class="ma-1" pill color="accent">
+                                    {{tag}}
+                                </v-chip>
+                            </p>
+                        </v-card-text>
+                        <v-card-actions>
+                            <v-spacer></v-spacer>
+                            <v-btn icon color="primary" @click="deleting = true; startDeleteGame(game)"><v-icon>mdi-delete</v-icon></v-btn>
+                            <v-btn icon color="primary" @click="adding = true; startEditGame(game)"><v-icon>mdi-pencil</v-icon></v-btn>
+                            <v-btn icon @click="game.favorited = !game.favorited; updateStorage()">
+                                <v-icon v-if="game.favorited" color="amber">mdi-star</v-icon>
+                                <v-icon v-else>mdi-star-outline</v-icon>
+                            </v-btn>
+                        </v-card-actions>
+                    </v-card>
+                </v-col>
+            </v-row>
+        </v-main>
+    </v-app>
+</div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
+<script src="js/addGame.js"></script>
+<script src="js/confirmDelete.js"></script>
+<script src="js/navBar.js"></script>
+<script src="js/app.js"></script>
+</html>
