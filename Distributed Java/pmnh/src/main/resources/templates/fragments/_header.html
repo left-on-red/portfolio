@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<body>
+<header th:fragment="header">
+    <a th:href="@{/}"><img th:src="@{/img/logo.png}"/></a>
+    <nav>
+        <ul>
+            <li><a th:href="@{/fossils/trilobites}">Trilobites</a></li>
+            <li><a th:href="@{/fossils/facts}">Wisco Fossils</a></li>
+            <li><a th:href="@{/glaciers/facts}">Glacier Facts</a></li>
+            <li><a th:href="@{/glaciers/trail}">Ice Age Trail</a></li>
+            <li><a th:href="@{/redirect-me}">Redirect</a></li>
+            <li><a th:href="@{/forward-me}">Forward</a></li>
+        </ul>
+    </nav>
+</header>
+</body>
+</html>

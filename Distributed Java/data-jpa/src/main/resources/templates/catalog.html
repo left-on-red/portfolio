@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head th:replace="frags :: head"></head>
+<body>
+<header th:replace="frags :: logo"></header>
+
+<div class="content">
+    <div th:each="item : ${itemList}" class="item-entry">
+        <h3 th:text="${item.name}">NAME</h3>
+        <p class="description" th:text="'description: ' + ${item.description}">DESCRIPTION</p>
+        <p class="price" th:text="'price: $' + ${item.price}">PRICE</p>
+        <p class="stock" th:text="'stock: ' + ${item.stock}">STOCK</p>
+        <br/>
+        <button th:onclick="|document.location='@{/order(id=${item.id})}'|">Order</button>
+    </div>
+</div>
+
+</body>
+</html>

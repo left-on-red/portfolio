@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head th:replace="frags :: head"></head>
+<body>
+<header th:replace="frags :: logo"></header>
+
+<div class="form">
+    <img th:src="@{/img/__${squirrel.imageFileName}__}" th:alt="${squirrel.commonName}">
+    <br/>
+    <h3 th:text="|Set the rank of ${squirrel.commonName}|">SET THE RANK</h3>
+    <br/>
+
+    <form th:action="@{/update-squirrel}" method="post" th:object="${squirrel}">
+        <input type="hidden" th:field="*{id}">
+        <input type="hidden" th:field="*{species}">
+        <input type="hidden" th:field="*{commonName}">
+        <input type="hidden" th:field="*{habitat}">
+        <input type="hidden" th:field="*{imageFileName}">
+        <label for="ranking">What's the new ranking?</label>
+        <input type="number" id="ranking" th:field="*{ranking}">
+        <br/>
+        <input type="submit" value="Update Ranking">
+    </form>
+</div>
+</body>
+</html>

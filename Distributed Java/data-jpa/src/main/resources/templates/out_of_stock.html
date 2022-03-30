@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head th:replace="frags :: head"></head>
+<body>
+<header th:replace="frags :: logo"></header>
+
+<div class="centered">
+    <h3 class="error">OUT OF STOCK</h3>
+    <p>The product <b th:text="${itemName}">NAME</b> is currently out of stock</p>
+    <br/>
+    <button th:onclick="|document.location='@{/catalog}'|">Return to Catalog</button>
+</div>
+
+</body>
+</html>

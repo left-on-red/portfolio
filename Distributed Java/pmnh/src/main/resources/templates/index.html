@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Pewaukee Museum of Natural History</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+<div th:insert="fragments/_header :: header"></div>
+<h2>
+    Mission Statement
+</h2>
+<p>
+    Connecting people to Northwoods nature through educational experiences that inspire wonder, discovery and
+    responsibility.
+</p>
+<img th:src="@{/img/cmnh.png}" alt="Cable Museum of Natural History">
+<h2>
+    Vision Statement
+</h2>
+<p>
+    We will be a trailhead, a community hub, and a regional destination with universal appeal. We inspire people toward
+    stewardship of the environment and to improve their lives.
+</p>
+<p>
+    The Museum provides programming that combines natural history education with youth development because the Museum is
+    a community organization devoted to providing family education. The Museum creates life-long learners who will
+    continue to take part in Museum activities.
+</p>
+<p>
+    Content taken from <a href="https://www.cablemuseum.org/">here.</a>
+</p>
+<div th:replace="fragments/_footer :: footer"></div>
+</body>
+</html>

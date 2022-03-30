@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head th:fragment="head">
+    <meta charset="UTF-8">
+    <title th:text="${pageTitle}">TITLE</title>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto&display=swap" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" th:href="@{/style.css}">
+</head>
+
+<body>
+
+<header th:fragment="logo">
+    <a th:href="@{/}">
+        <img th:src="@{/img/logo.png}" alt="24/7 SquirrelWatch Logo">
+        <h1>24/7 SquirrelWatch</h1>
+    </a>
+    <h2>Tracking Sightings for Fun and Science</h2>
+</header>
+
+<div th:fragment="info" class="info">
+    <h2 th:text="${squirrel.commonName}">INFO</h2>
+
+    <h3>Info</h3>
+    <table>
+        <tr>
+            <th>Species</th>
+            <th>Name</th>
+            <th>Habitat</th>
+            <th>Ranking</th>
+        </tr>
+        <tr>
+            <td th:text="${squirrel.species}">SPECIES</td>
+            <td th:text="${squirrel.commonName}">NAME</td>
+            <td th:text="${squirrel.habitat}">HABITAT</td>
+            <td th:text="${squirrel.ranking}">RANKING</td>
+        </tr>
+    </table>
+
+    <h3>Sightings</h3>
+    <table>
+        <tr>
+            <th>Spotted By</th>
+            <th>At</th>
+            <th>On</th>
+            <th>Number Spotted</th>
+        </tr>
+        <tr th:each="si : ${sightingList}">
+            <td th:text="${si.spotterName}">NAME</td>
+            <td th:text="${si.location.name}">LOCATION</td>
+            <td th:text="${#temporals.format(si.spottedAt, 'MMM dd yyyy hh:mm a')}">DATE</td>
+            <td th:text="${si.count}">COUNT</td>
+        </tr>
+    </table>
+
+    <h3><a th:href="@{/list}">Back to List</a></h3>
+</div>
+
+</body>
+</html>

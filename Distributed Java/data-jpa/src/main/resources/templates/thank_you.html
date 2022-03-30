@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head th:replace="frags :: head"></head>
+<body>
+<header th:replace="frags :: logo"></header>
+
+<div class="centered">
+    <h3>THANK YOU</h3>
+    <p>Thank you for the purchase of product <b th:text="${itemName}">NAME</b>!</p>
+    <br/>
+    <button th:onclick="|document.location='@{/catalog}'|">Return to Catalog</button>
+</div>
+
+</body>
+</html>

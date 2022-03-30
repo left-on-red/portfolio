@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head th:replace="frags :: head"></head>
+<body>
+<header th:replace="frags :: logo"></header>
+
+<div class="content">
+<div th:each="sq : ${squirrelList}" class="squirrel-entry">
+    <h3 th:text="${sq.commonName}">COMMON NAME</h3>
+    <p class="species" th:text="${sq.species}">SPECIES</p>
+    <p class="habitat" th:text="${sq.habitat}">HABITAT</p>
+    <img th:src="@{/img/sm/__${sq.imageFileName}__}" th:alt="${sq.commonName}">
+    <br/>
+    <button th:onclick="|document.location='@{/report(id=${sq.id})}'|">I Saw It!</button>
+    <br/>
+    <button th:onclick="|document.location='@{/sightings(id=${sq.id})}'|">Recent Sightings</button>
+    <br/>
+    <button th:onclick="|document.location='@{/rankings(id=${sq.id})}'|" th:text="${'Ranking: ' + sq.ranking}">RANKING</button>
+</div>
+</div>
+
+</body>
+</html>

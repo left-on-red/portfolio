@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Ice Age Trail</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+<div th:insert="fragments/_header :: header"></div>
+<h2>
+    About the Ice Age Trail
+</h2>
+<img class="left" th:src="@{/img/Cover-Ice-Age-Trail-Guidebook-2020-2022.jpg}" alt="Ice Age Trail Guidebook">
+<p>
+    More than 12,000 years ago, an immense flow of glacial ice sculpted a landscape of remarkable beauty across
+    Wisconsin. As the glacier retreated, it left behind a variety of unique landscape features. These glacial remnants
+    are now considered among the world's finest examples of how continental glaciation sculpts our planet.
+</p>
+<p>
+    The Ice Age National Scenic Trail is a thousand-mile footpath that highlights these landscape features as it travels
+    through some of the state's most beautiful natural areas. The Trail is entirely within Wisconsin and is one of only
+    eleven National Scenic Trails.
+</p>
+<p>
+    But the Ice Age Trail is more than a path through the woods. It is a place for mental and physical rejuvenation, a
+    place to unwind after a hard day and enjoy the landscape of Wisconsin. More than 1 million people use the Ice Age
+    Trail each year to hike and snowshoe, to backpack, to disconnect and reconnect.
+</p>
+<p>
+    Behind the scenes, a vibrant community of volunteers across the state work to build and maintain the Trail, making
+    it one of the country's best hiking experiences.
+</p>
+<p>
+    Content taken from <a href="https://www.iceagetrail.org/ice-age-trail/">here.</a>
+</p>
+<div th:insert="fragments/_footer :: footer"></div>
+</body>
+</html>

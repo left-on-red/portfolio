@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Wisco Fossils</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+
+<div th:insert="fragments/_header :: header"></div>
+
+<h2>Fossil Formation in Wisconsin</h2>
+<img class="left" th:src="@{/img/common-fossils-of-wisconsin.jpg}" alt="Fossil development">
+<p>
+    Many people view the earth and its lifeforms as what we see today. However, both have changed dramatically
+    through
+    time; the evidence for this comes from something most of us see every day, but think little about: rock. Much of
+    the
+    rock in Wisconsin contains fossils, the remains of ancient organisms. After these organisms died, parts of their
+    bodies were preserved in rock. Paleontologists—people who study ancient life on the basis of fossilized plants
+    and
+    animals—use them as clues about the Earth's past. The fossils found in rock throughout Wisconsin were formed
+    from
+    creatures that lived in the warm, shallow seas that once covered the state.
+</p>
+<h2>How Fossils Form</h2>
+<p>
+    Because fossils form under specific conditions, only a small percentage of organisms is preserved. Hard skeletal
+    parts such as shells, bones, and teeth are the most commonly fossilized remains because they are more durable
+    than
+    the soft tissues, which decay rapidly.
+</p>
+<p>
+    Fossils are preserved in sedimentary rock, which is formed from what is essentially scrap material: weathering
+    processes break up and erode rocks at the Earth's surface, and wind and water carry away the scraps—pebbles,
+    sand,
+    silt, and clay. Many of these particles, called sediment, then settle on sea bottoms. As sea creatures die and
+    also
+    settle to the seafloor, they eventually are buried by sediment (see the figure on fossil formation).
+</p>
+<p>Content taken from <a
+        href="https://wgnhs.wisc.edu/wisconsin-geology/fossils-of-wisconsin/fossil-formation-in-wisconsin/">here.</a>
+</p>
+<div th:insert="fragments/_footer :: footer"></div>
+</body>
+</html>

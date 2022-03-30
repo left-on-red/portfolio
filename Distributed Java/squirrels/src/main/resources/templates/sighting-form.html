@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head th:replace="frags :: head"></head>
+<body>
+<header th:replace="frags :: logo"></header>
+
+<div class="form">
+    <img th:src="@{/img/__${squirrel.imageFileName}__}" th:alt="${squirrel.commonName}">
+    <br/>
+    <h3 th:text="|Tell us about your ${squirrel.commonName} sighting|">REPORT A SIGHTING</h3>
+    <br/>
+
+    <form th:action="@{/save}" method="post" th:object="${sighting}">
+        <input type="hidden" th:field="*{squirrelId}">
+
+        <label for="spotter">Name of Squirrel Spotter</label>
+        <span class="error" th:if="${#fields.hasErrors('spotterName')}" th:errors="*{spotterName}">NAME ERROR</span>
+        <br/>
+        <input type="text" id="spotter" th:field="*{spotterName}">
+
+        <br/>
+
+        <label for="location">Location</label>
+        <br/>
+        <select id="location" th:field="*{location}">
+            <option th:each="loc : ${locationList}"
+                    th:value="${loc.id}"
+                    th:text="|${loc.name} (${loc.country})|">LOCATION
+            </option>
+        </select>
+
+        <br/>
+
+        <label for="count">How many did you spot?</label>
+        <span class="error" th:if="${#fields.hasErrors('count')}" th:errors="*{count}">COUNT ERROR</span>
+        <br/>
+        <input type="number" id="count" th:field="*{count}">
+
+        <br/>
+
+        <input type="submit" value="Report Sighting">
+    </form>
+</div>
+</body>
+</html>

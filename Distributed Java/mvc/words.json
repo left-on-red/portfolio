@@ -1,0 +1,73 @@
+[
+  {
+    "id": 0,
+    "name": "Accelerando",
+    "description": "Gradually increasing in speed."
+  },
+
+  {
+    "id": 1,
+    "name": "Metronymic",
+    "description": "Derived from the name of a mother or another female ancestor."
+  },
+
+  {
+    "id": 2,
+    "name": "Feijoada",
+    "description": "A dish of rice and black beans baked with various kinds of meat and sausage."
+  },
+
+  {
+    "id": 3,
+    "name": "Frowzy",
+    "description": "Dirty and untidy; slovenly."
+  },
+
+  {
+    "id": 4,
+    "name": "Coronach",
+    "description": "A song of lamentation for the dead; dirge."
+  },
+
+  {
+    "id": 5,
+    "name": "Barchan",
+    "description": "A crescent-shaped sand dune with the convex side in the direction of the wind."
+  },
+
+  {
+    "id": 6,
+    "name": "Oenology",
+    "description": "The science of viniculture."
+  },
+
+  {
+    "id": 7,
+    "name": "Guillemet",
+    "description": "One of two marks « or » used in French, Italian, and Russian printing to enclose quotations."
+  },
+
+  {
+    "id": 8,
+    "name": "Togated",
+    "description": "Clad in a toga."
+  },
+
+  {
+    "id": 9,
+    "name": "Acequia",
+    "description": "An irrigation ditch."
+  },
+
+  {
+    "id": 10,
+    "name": "Jovial",
+    "description": "Endowed with or characterized by a hearty, joyous humor or a spirit of good-fellowship."
+  },
+
+  {
+    "id": 11,
+    "name": "Descry",
+    "description": "To see (something unclear or distant) by looking carefully; discern; espy."
+  }
+]

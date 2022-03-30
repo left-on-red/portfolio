@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Glacier Facts</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+<div th:insert="fragments/_header :: header"></div>
+<h2>Wisconsin's Last Glacier</h2>
+<img class="left" th:src="@{/img/glaciers1.jpg}" alt="Laurentide Ice Sheet">
+<p>
+    Movement of the Laurentide Ice Sheet was shaped—to a certain extent—by the landscape. Highlands diverted the glacier
+    into lobes (tongues or fingers of ice) that advanced into the lowland areas.
+</p>
+<p>
+    The Lake Michigan Lobe of the glacier flowed down the Lake Michigan lowland to central Indiana and Illinois. The
+    Langlade, Wisconsin Valley, Chippewa, and Superior Lobes covered northern Wisconsin. The Green Bay Lobe flowed south
+    in the Green Bay lowland, advancing over the east end of the Baraboo Hills and into both ends of Devils Lake gorge.
+</p>
+<p>
+    The edge of the Green Bay Lobe was probably a steep ice slope, perhaps several hundred feet high, littered with rock
+    debris. Behind the steep slope, the ice surface probably rose very gently toward the center of the ice sheet, where
+    the ice was thousands of feet thick.
+</p>
+<h2>
+    Treeless tundra—landscape beyond the glacier
+</h2>
+<p>
+    Beyond the edge of the Green Bay Lobe lay a nearly treeless tundra, whose surface thawed for only a short time
+    during the summer; beneath this soggy surface, the ground was deeply frozen. These tundra conditions persisted from
+    about 26,000 to about 13,000 years ago. The polygonal patterns produced by the cracking of the deeply frozen ground
+    can be seen on aerial photographs of parts of Wisconsin; these tundra polygons look much like those forming in the
+    Arctic today.
+</p>
+<h2>
+    A landscape sculpted by ice and water
+</h2>
+<p>
+    The Laurentide Ice Sheet and the large volume of meltwater flowing from it greatly altered the landscape of
+    Wisconsin. As a result, the landscape of the area glaciated during the last part of the Wisconsin Glaciation is
+    notably different than that of areas glaciated earlier in the Ice Age (where erosion has destroyed most earlier
+    glacial landforms) and areas that were never glaciated. For example, the outermost limit of the last glacier is
+    marked by a conspicuous ridge of glacially deposited debris. The many lakes and wetlands and the irregular landscape
+    that characterize so many areas of eastern and northern Wisconsin are also a direct result of the last glacier.
+</p>
+<p>Content taken from <a href="https://wgnhs.wisc.edu/wisconsin-geology/ice-age/">here.</a></p>
+<div th:insert="fragments/_footer :: footer"></div>
+</body>
+</html>

@@ -1,0 +1,144 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #defafa;
+}
+
+h3, h2, footer, #credits {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+button {
+    background-color: #333;
+    color: #EEE;
+    border: none;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+}
+
+.species {
+    font-style: italic;
+}
+
+.squirrel-entry {
+    border: 2px #555 dashed;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 200px;
+    padding: 20px 25px;
+    background-color: #d1ebeb;
+}
+
+.form {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.form form {
+    text-align: left;
+}
+
+select {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    font-size: larger;
+}
+
+input[type=number], input[type=text] {
+    width: 100%;
+    padding: 16px 20px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #f1f1f1;
+    font-size: larger;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #d1ebeb;
+    color: black;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.squirrel-entry img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px #555 dashed;
+}
+
+header * {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+}
+
+.error {
+    color: red;
+}
+
+.info {
+    padding-top: 20px;
+}
+
+.form img {
+    border: 2px #555 dashed;
+}
+
+.info table {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px #555 dashed;
+    background-color: #d1ebeb;
+}
+
+.info th {
+    font-size: 24px;
+}
+
+.info td {
+    font-size: 18px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+    background-color: #d1ebeb;
+}
+

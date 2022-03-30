@@ -36,4 +36,6 @@ Introduction to Java (2020-2021 3rd quarter @ WCTC) - All Java Programming.
 
 Software Architecture (2020-2021 4th quarter @ WCTC) - Software design fundamentals and writing structually safe and maintainable code.
 
+Distributed Java (2021-2022 1st quarter @ WCTC) - Java coupled software design
+
 A page showcasing live demos of some of the various web applications that I've written can be found [here.](https://shadeRed.github.io/portfolio)

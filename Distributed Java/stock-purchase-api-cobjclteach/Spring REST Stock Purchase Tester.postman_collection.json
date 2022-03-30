@@ -1,0 +1,147 @@
+{
+	"info": {
+		"_postman_id": "c6e724d0-6151-4a29-be8e-0fa568e5524b",
+		"name": "Spring REST Stock Purchase Tester",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "api/stockpurchases",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/{{stockpurchases}}",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"{{stockpurchases}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api/stockpurchases/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/{{stockpurchases}}/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"{{stockpurchases}}",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api/stockpurchases",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"symbol\": \"GME\",\r\n    \"pricePerShare\": \"182.28\",\r\n    \"shares\": 7.5,\r\n    \"purchaseDate\": \"2021-10-11T05:00:00.000+00:00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/{{stockpurchases}}",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"{{stockpurchases}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api/stockpurchases",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 1,\r\n    \"symbol\": \"CCL\",\r\n    \"pricePerShare\": \"24.03\",\r\n    \"shares\": -50,\r\n    \"purchaseDate\": \"2021-10-11T05:00:00.000+00:00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/{{stockpurchases}}",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"{{stockpurchases}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api/stockpurchases/1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/{{stockpurchases}}/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"{{stockpurchases}}",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api/stockpurchases/2",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\"op\": \"replace\", \"path\": \"/symbol\", \"value\": \"BACX\"},\r\n    {\"op\": \"remove\", \"path\": \"/shares\"}\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/{{stockpurchases}}/2",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"{{stockpurchases}}",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
